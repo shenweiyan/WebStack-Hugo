@@ -2,8 +2,9 @@
 
 本项目是基于**纯静态**的网址导航网站 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的 [Hugo](https://gohugo.io/) 主题，其中部分代码参考了以下几个开源项目：<br/>
 
-- [https://github.com/liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
-- [https://github.com/iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
+- [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io)
+- [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
+- [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
 
 <br/>
 
@@ -42,5 +43,5 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 ### 主题演示地址
 
 - [https://bioitee.com](https://bioitee.com)
-- [https://shenweiyan.github.io/webstack-hugo](https://shenweiyan.github.io/webstack-hugo)
+- [https://shenweiyan.github.io/WebStack-Hugo](https://shenweiyan.github.io/WebStack-Hugo)
 

@@ -15,13 +15,13 @@
 - 克隆仓库
 
 ```
-$ git clone https://github.com/shenweiyan/webstack-hugo.git
+$ git clone https://github.com/shenweiyan/WebStack-Hugo.git
 ```
 
 - 进入 exampleSite 目录执行 hugo server
 
 ```
-$ cd webstack-hugo/exampleSite/
+$ cd WebStack-Hugo/exampleSite/
 $ hugo server --themesDir ../..
 
 # 如果你知道你的公网 ip, 如下面的 132.76.230.31, 可以使用下面的方式执行 hugo server
@@ -36,7 +36,7 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 
 ### 主题开源地址
 
-[https://github.com/shenweiyan/webstack-hugo](https://github.com/shenweiyan/webstack-hugo)
+[https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
 
 <br/>
 

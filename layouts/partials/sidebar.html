@@ -1,5 +1,5 @@
 <body class="io-grey-mode">
-    {{ if $.Site.Params.enableLoad }}
+    {{ if $.Site.Params.enablePreLoad }}
     <div id="loading">
         <style>
             .loader {
@@ -56,7 +56,7 @@
                 }
             }
         </style>
-        <div class="loader">Bio & IT 网址导航</div>
+        <div class="loader">{{ $.Site.Params.textPreLoad }}</div>
     </div>
     {{ end }}
     <div class="page-container">

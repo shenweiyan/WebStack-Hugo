@@ -13,8 +13,9 @@ publishDir = "docs"
     description = "Webstack Hugo 网址导航 | Bio IT 爱好者"
     siteurl = "./"
     repository = "https://github.com/shenweiyan/WebStack-Hugo"
-    enableLoad = true
-    logosPath  = "assets/images/logos"
+    enablePreLoad = true		    		        # 网站完全打开前预加载的动画
+    textPreLoad = "Bio & IT 网址导航"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
+    logosPath  = "assets/images/logos"				# 网站每个导航地址logo存放地址
 
 [params.qweather]
     key = "085791e805a24491b43b06cf58ab31e7"
@@ -22,7 +23,7 @@ publishDir = "docs"
 [params.images]
     favicon           = "assets/images/favicon.png"
     backgroundImage   = "assets/images/bg.jpg"
-    logoExpandLight   = "http://144.76.231.30:1313/assets/images/bioitee-expand-light.png"
+    logoExpandLight   = "assets/images/bioitee-expand-light.png"
     logoExpandDark    = "assets/images/bioitee-expand-dark.png"
     logoCollapseLight = "assets/images/logo-collapse-light.png"
     logoCollapseDark  = "assets/images/logo-collapse-dark.png"

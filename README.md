@@ -8,8 +8,7 @@
 
 <br/>
 
-主题安装后，将 exampleSite 目录下的文件复制到 hugo 站点根目录，根据需要把 config.toml 的一些信息改成自己的，导航的网址信息可通过 data 目录下 webstack.yml 修改。Windows/Linux 下更加详细的安装说明请参考：[https://www.yuque.com/shenweiyan/cookbook/webstack-hugo](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo)
-
+主题安装后，将 exampleSite 目录下的文件复制到 hugo 站点根目录，根据需要把 config.toml 的一些信息改成自己的，导航的网址信息可通过 data 目录下 webstack.yml 修改。
 具体执行步骤如下：
 
 - 克隆仓库
@@ -27,6 +26,10 @@ $ hugo server --themesDir ../..
 # 如果你知道你的公网 ip, 如下面的 132.76.230.31, 可以使用下面的方式执行 hugo server
 $ hugo server --baseUrl=132.76.230.31 --bind=0.0.0.0 --themesDir ../..
 ```
+
+Windows/Linux 下更加详细的安装说明请参考：
+- [https://www.yuque.com/shenweiyan/cookbook/webstack-hugo](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo)
+
 
 这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
 

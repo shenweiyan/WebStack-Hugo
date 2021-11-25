@@ -8,7 +8,7 @@
 
 <br/>
 
-主题安装后，将 exampleSite 目录下的文件复制到 hugo 站点根目录，根据需要把 config.toml 的一些信息改成自己的，导航的网址信息可通过 data 目录下 webstack.yml 修改。
+主题安装后，将 exampleSite 目录下的文件复制到 hugo 站点根目录，根据需要把 config.toml 的一些信息改成自己的，导航的网址信息可通过 data 目录下 webstack.yml 修改。Windows/Linux 下更加详细的安装说明请参考：[https://www.yuque.com/shenweiyan/cookbook/webstack-hugo](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo)
 
 具体执行步骤如下：
 

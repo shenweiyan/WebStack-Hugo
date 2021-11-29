@@ -48,3 +48,10 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 - [https://bioitee.com](https://bioitee.com)
 - [https://shenweiyan.github.io/WebStack-Hugo](https://shenweiyan.github.io/WebStack-Hugo)
 
+### 贡献者
+
+感谢以下所有朋友对本主题所做出的贡献，特此致谢。
+
+[@yanbeiyinhanghang](https://github.com/yinhanghang)
+
+

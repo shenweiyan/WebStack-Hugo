@@ -103,10 +103,10 @@
         <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
     </h4>
     <div class="friendlink text-xs card">
-        <div class="card-body">
-            <a href="https://www.bioitee.com" title="BioIT爱好者" target="_blank">BioIT爱好者</a>
-            <a href="https://shen.bioitee.com" title="沈维燕个人博客" target="_blank">个人博客</a>
-            <a href="#" target="_blank" title="更多链接">更多链接</a>
+        <div class="card-body"> 
+	    {{ range .Site.Data.friendlinks }}
+	    <a href="{{ .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
+	    {{ end }}
         </div>
     </div>
 </div>

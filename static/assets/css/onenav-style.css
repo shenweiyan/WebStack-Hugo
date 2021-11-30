@@ -523,10 +523,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big.no-bg{padding-bottom:10px}
 //shenweiyan: 调整header-banner样式---------------start
 //.header-big.css-color{background-size:400%;background-position:0% 100%;-webkit-animation:gradient 7.5s ease-in-out infinite;animation:gradient 7.5s ease-in-out infinite}
-.header-big.css-color{
-     background-size:100% 100%;
-     background-position:100% 90%;
-}
+//.header-big.css-color{background-size:100% 100%; background-position:100% 90%;}
 //shenweiyan: 调整header-banner样式---------------end
 
 @-webkit-keyframes gradient{50%{background-position:100% 0}

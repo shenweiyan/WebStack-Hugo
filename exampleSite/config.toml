@@ -9,13 +9,14 @@ publishDir = "docs"
 
 
 [params]
-    author = "shenweiyan"
-    description = "Webstack Hugo 网址导航 | Bio IT 爱好者"
-    siteurl = "./"
-    repository = "https://github.com/shenweiyan/WebStack-Hugo"
+    author        = "shenweiyan"
+    description   = "Webstack Hugo 网址导航 | Bio IT 爱好者"
+    siteurl       = "./"
+    about         = "https://www.yuque.com/shenweiyan/cookbook/webstack-hugo"   # 左侧导航栏的"关于导航"页面(./about)
+    repository    = "https://github.com/shenweiyan/WebStack-Hugo"
     enablePreLoad = true		    		        # 网站完全打开前预加载的动画
-    textPreLoad = "Bio & IT 网址导航"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
-    logosPath  = "assets/images/logos"				# 网站每个导航地址logo存放地址
+    textPreLoad   = "Bio & IT 网址导航"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
+    logosPath     = "assets/images/logos"				# 网站每个导航地址logo存放地址
 
 [params.qweather]
     key = "085791e805a24491b43b06cf58ab31e7"

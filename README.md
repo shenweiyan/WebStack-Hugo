@@ -10,8 +10,9 @@
 
 Windows/Linux 下详细的安装与使用说明，请参考一下文档：
 
-- **[https://www.yuque.com/shenweiyan/cookbook/webstack-hugo](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo)**
+**《[WebStack-Hugo | 一个简洁的静态导航主题](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo)》**
 
+<br/>
 
 这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
 

@@ -8,33 +8,31 @@
 
 <br/>
 
-Windows/Linux 下详细的安装与使用说明，请参考一下文档：
+### 安装
 
-**《[WebStack-Hugo | 一个简洁的静态导航主题](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo)》**
+Windows/Linux 下详细的安装与使用说明，请参考文档：
 
-<br/>
+**[WebStack-Hugo | 一个简洁的静态导航主题](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo) - [语雀](https://www.yuque.com/shenweiyan)**
 
-这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
-
-WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎来本项目中 issue 分享一下！
-
-<br/>
 
 ### 主题开源地址
 
 [https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
 
-<br/>
 
 ### 主题演示地址
 
 - [https://bioitee.com](https://bioitee.com)
 - [https://shenweiyan.github.io/WebStack-Hugo](https://shenweiyan.github.io/WebStack-Hugo)
 
+### 使用
+
+这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
+
+WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎来本项目中 issue 分享一下！
+
 ### 贡献者
 
 感谢以下所有朋友对本主题所做出的贡献，特此致谢。
 
 [@yanbeiyinhanghang](https://github.com/yinhanghang)
-
-

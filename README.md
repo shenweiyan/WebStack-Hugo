@@ -6,9 +6,8 @@
 - [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
 - [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
 
-<br/>
 
-### 安装
+### 安装说明
 
 Windows/Linux 下详细的安装与使用说明，请参考文档：
 
@@ -25,7 +24,7 @@ Windows/Linux 下详细的安装与使用说明，请参考文档：
 - [https://bioitee.com](https://bioitee.com)
 - [https://shenweiyan.github.io/WebStack-Hugo](https://shenweiyan.github.io/WebStack-Hugo)
 
-### 使用
+### 使用说明
 
 这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
 

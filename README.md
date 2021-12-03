@@ -16,7 +16,8 @@ Windows/Linux 下详细的安装与使用说明，请参考文档：
 
 ### 主题开源地址
 
-[https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
+- GitHub：[https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
+- Gitee：[https://gitee.com/shenweiyan/WebStack-Hugo](https://gitee.com/shenweiyan/WebStack-Hugo)
 
 
 ### 主题演示地址

@@ -1,6 +1,6 @@
 # Hugo 版 WebStack 主题
 
-本项目是基于**纯静态**的网址导航网站 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的 [Hugo](https://gohugo.io/) 主题，一个基于 Hugo 的静态响应式网址导航主题，其中部分代码参考了以下几个开源项目：<br/>
+本项目是基于**纯静态**的网址导航网站 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的 [Hugo](https://gohugo.io/) 主题，是一个基于 Hugo 的静态响应式网址导航主题，其中部分代码参考了以下几个开源项目：<br/>
 
 - [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io)
 - [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)

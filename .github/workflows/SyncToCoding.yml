@@ -3,19 +3,32 @@ name: Sync
 on:
   push:
     branches: [main]
-  workflow_dispatch:
 
 jobs:
-  build:
+  push-to-mirror:
     runs-on: ubuntu-latest
+    needs: [build-setup, build-docs]
     steps:
-      - name: Github Sync to Coding
-        uses: shenweiyan/git-mirror-action@master
+      - name: Clone
+        run: |
+          git init
+          git remote add origin https://github.com/${GITHUB_REPOSITORY}.git
+          git fetch --all
+          for branch in `git branch -a | grep remotes | grep -v HEAD`; do
+            git branch --track ${branch##*/} $branch
+          done
         env:
-          # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY
-          SSH_PRIVATE_KEY: ${{ secrets.CODING_RSA_PRIVATE_KEY }}
-        with:
-          # 注意替换为你的 GitHub 源仓库地址
-          source-repo: git@github.com:shenweiyan/WebStack-Hugo.git
-          # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: git@e.coding.net:shenweiyan/webstack-hugo/WebStack-Hugo.git
+          GITHUB_REPOSITORY: shenweiyan/WebStack-Hugo
+      - name: Push to Coding
+        run: |
+          remote_repo="https://${CODING_USERNAME}:${CODING_PASSWORD}@e.coding.net/${CODING_REPOSITORY}.git"
+          git remote add coding "${remote_repo}"
+          git show-ref # useful for debugging
+          git branch --verbose
+          # publish all
+          git push --all --force coding
+          git push --tags --force coding
+        env:
+          CODING_REPOSITORY: shenweiyan/webstack-hugo/WebStack-Hugo
+          CODING_USERNAME: ${{ secrets.CODING_USERNAME }}
+          CODING_PASSWORD: ${{ secrets.CODING_PASSWORD }}

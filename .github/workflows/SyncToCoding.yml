@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Github Sync to Coding
-        uses: wearerequired/git-mirror-action@master
+        uses: shenweiyan/git-mirror-action@master
         env:
           # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY
           SSH_PRIVATE_KEY: ${{ secrets.CODING_RSA_PRIVATE_KEY }}

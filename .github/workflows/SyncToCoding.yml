@@ -1,4 +1,4 @@
-name: Sync
+name: SyncToCoding
 
 on:
   push:
@@ -7,7 +7,6 @@ on:
 jobs:
   push-to-mirror:
     runs-on: ubuntu-latest
-    needs: [build-setup, build-docs]
     steps:
       - name: Clone
         run: |

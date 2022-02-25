@@ -23,7 +23,7 @@ Windows/Linux 下详细的安装与使用说明，请参考文档：
 ### 主题演示地址
 
 - [https://nav.bioitee.com](https://nav.bioitee.com)
-- [https://shenweiyan.github.io/WebStack-Hugo](https://shenweiyan.github.io/WebStack-Hugo)
+- [https://bioit.pages.dev](https://bioit.pages.dev)
 
 ### 使用说明
 

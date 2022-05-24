@@ -2,6 +2,7 @@
     {{ range .Site.Data.webstack }}
         {{ if .list }}
             {{ range .list }}
+	    <!--正文网址导航--》
             <!-- {{ .term }} -->
             <div class="d-flex flex-fill">
                 <h4 class="text-gray text-lg mb-4">
@@ -16,8 +17,11 @@
                 {{ range .links }}
                 <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                     <div class="url-body default">
-                        <a href="{{ .url }}" target="_blank" data-id="689xxx" data-url="{{ .url }}"
-                            class="card no-c  mb-4 site-689" title="{{ .title }}">
+			<!--去除 Tooltip
+                        <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
+			去除 Tooltip -->
+                        <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}"
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
                             <div class="card-body">
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
@@ -50,6 +54,7 @@
             <!--END {{ .term }} -->
             {{ end }}
         {{ else }}
+	    <!--常用推荐-->
             <!-- {{ .taxonomy }} -->
             <div class="d-flex flex-fill">
                 <h4 class="text-gray text-lg mb-4">
@@ -64,8 +69,11 @@
                 {{ range .links }}
                 <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                     <div class="url-body default">
-                        <a href="{{ .url }}" target="_blank" data-id="689xxx" data-url="{{ .url }}"
-                            class="card no-c  mb-4 site-689" title="{{ .title }}">
+			<!--去除 Tooltip
+			<a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
+			-->
+                        <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" 
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
                             <div class="card-body">
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">

@@ -168,7 +168,7 @@ $ hugo server --baseUrl=132.76.230.31 --bind=0.0.0.0
 ## 主题演示地址
 
 - [https://nav.bioitee.com](https://nav.bioitee.com)
-- [https://bioit.pages.dev](https://bioit.pages.dev)
+- [https://hao.bioitee.com/](https://hao.bioitee.com/)
 
 ## 使用说明
 

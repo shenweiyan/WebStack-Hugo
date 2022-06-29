@@ -6,6 +6,16 @@
 - [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
 - [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
 
+## 主题开源地址
+
+- GitHub：[https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
+- Gitee：[https://gitee.com/shenweiyan/WebStack-Hugo](https://gitee.com/shenweiyan/WebStack-Hugo)
+
+## 主题演示地址
+
+- [https://nav.bioitee.com](https://nav.bioitee.com)
+- [https://hao.bioitee.com](https://hao.bioitee.com)
+
 ## 特色功能
 
 这是 Hugo 版 WebStack 主题。可以借助 Github Pages 或者 Coding 直接托管部署，无需服务器。
@@ -43,6 +53,12 @@
 - 做了手机电脑自适应以及夜间模式。
 - 增加了搜索功能，以及下拉的热词选项（基于百度 API）。
 - 增加了一言、和风天气的 API。
+
+## 使用说明
+
+这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
+
+WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎来本项目中 issue 分享一下！
 
 
 ## 安装说明
@@ -158,23 +174,6 @@ $ hugo server --baseUrl=132.76.230.31 --bind=0.0.0.0
 
 更多 Windows/Linux 下详细的安装与使用说明，请参考文档：《[WebStack-Hugo | 一个简洁的静态导航主题](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo) - [语雀](https://www.yuque.com/shenweiyan)》。
 
-
-## 主题开源地址
-
-- GitHub：[https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
-- Gitee：[https://gitee.com/shenweiyan/WebStack-Hugo](https://gitee.com/shenweiyan/WebStack-Hugo)
-
-
-## 主题演示地址
-
-- [https://nav.bioitee.com](https://nav.bioitee.com)
-- [https://hao.bioitee.com](https://hao.bioitee.com)
-
-## 使用说明
-
-这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
-
-WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎来本项目中 issue 分享一下！
 
 ## 贡献者
 

@@ -156,7 +156,7 @@ $ hugo server
 $ hugo server --baseUrl=132.76.230.31 --bind=0.0.0.0 
 ```
 
-更多Windows/Linux 下详细的安装与使用说明，请参考文档：《[WebStack-Hugo | 一个简洁的静态导航主题](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo) - [语雀](https://www.yuque.com/shenweiyan)》。
+更多 Windows/Linux 下详细的安装与使用说明，请参考文档：《[WebStack-Hugo | 一个简洁的静态导航主题](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo) - [语雀](https://www.yuque.com/shenweiyan)》。
 
 
 ## 主题开源地址

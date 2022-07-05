@@ -55,7 +55,12 @@ footer.main-footer .footer-text a:hover {
 .panel .panel-body a {color: #007bff;}
 .panel .panel-body a:hover {color: #979898;}
 
-
+/* 网格背景 */
+.io-grey-mode .page-container .grid-bg {
+    background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0); 
+    background-size: 15px 15px;
+    background-color: #d8d8d8;
+}
 
 
 

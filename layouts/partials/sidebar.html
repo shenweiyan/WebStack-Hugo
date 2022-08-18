@@ -60,8 +60,12 @@
     </div>
     {{ end }}
     <div class="page-container">
+	{{ if $.Site.Params.expandSidebar }}
+	<div id="sidebar" class="sticky sidebar-nav fade animate-nav" style="width: 170px">
+        {{ else }}
         <div id="sidebar" class="sticky sidebar-nav fade mini-sidebar" style="width: 60px;">
-            <div class="modal-dialog h-100  sidebar-nav-inner">
+	{{ end }}
+            <div class="modal-dialog h-100 sidebar-nav-inner">
                 <div class="sidebar-logo border-bottom border-color">
                     <!-- logo -->
                     <div class="logo overflow-hidden">

@@ -13,7 +13,11 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
 <script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/theia-sticky-sidebar-1.5.0.js' id='sidebar-js'></script>
 <script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/lazyload.min-12.4.0.js' id='lazyload-js'></script>
 <script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/fancybox.min-3.5.7.js' id='lightbox-js-js'></script>
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/onenav-app.js' id='appjs-js'></script>
+{{ if $.Site.Params.expandSidebar }}
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/app-anim.js' id='appanim-js'></script>
+{{ else }}
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/app-mini.js' id='appmini-js'></script>
+{{ end }}
 <script type="text/javascript">
     $(document).ready(function(){
         var siteWelcome = $('#loading');

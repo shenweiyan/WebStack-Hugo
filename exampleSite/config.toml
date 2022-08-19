@@ -16,7 +16,7 @@ publishDir = "docs"
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"
     enablePreLoad = true		    		                        # 网站完全打开前预加载的动画
     textPreLoad   = "Bio & IT 网址导航"				                # 预加载的动画文字, 只有当enablePreLoad=true时生效
-    expandSidebar = false                                                       # 默认展开导航左侧边栏
+    expandSidebar = true                                                       # 默认展开导航左侧边栏
     logosPath     = "assets/images/logos"			                # 网站每个导航地址logo存放地址
 
 [params.qweather]

@@ -1,9 +1,3 @@
-/*!
- * Theme Name:One Nav
- * Theme URI:https://www.iotheme.cn/
- * Author:iowen
- * Author URI:https://www.iowen.cn/
- */
 (function($){ 
     $(document).ready(function(){
         // 侧栏菜单初始状态设置
@@ -24,10 +18,10 @@
             additionalMarginBottom: 20
         });
         // 初始化游客自定义数据
-        if(theme.isCustomize == '1'){
+        /*if(theme.isCustomize == '1'){
             intoSites(false);
             intoSites(true);
-        }
+        }*/
     });
     $(".panel-body.single img").each(function(i) {
         if (!this.parentNode.href) {
@@ -1295,7 +1289,7 @@ function ioConfirm(message, btnCallBack) {
 	}
 	return popup;
 }
-console.log("\n %c One Nav 导航主题 By 一为 %c https://www.iotheme.cn/ \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
+console.log("\n %c WebStack-Hugo 导航主题 By ShumLab %c https://www.shumlab.com/ \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
 
 /**
  * Minified by jsDelivr using Terser v5.3.5.

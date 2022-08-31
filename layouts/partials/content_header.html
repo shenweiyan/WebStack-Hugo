@@ -25,34 +25,21 @@
                         </div>
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
-                            <li id="menu-item-281"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281">
-                                <a href="./">
-                                    <i class="fa fa-home fa-lg mr-2"></i>
-                                    <span>首页</span></a>
-                            </li>
-                            <li id="menu-item-786"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-786">
-                                <a target="_blank" rel="noopener" href="https://www.yuque.com/shenweiyan">
-                                    <i class="fa fa-book fa-lg mr-2"></i>
-                                    <span>语雀</span></a></li>
-                            <li id="menu-item-284"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-284">
-                                <a href="">
-                                    <i class="fa fa-cog fa-lg mr-2"></i>
-                                    <span>配置</span></a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-264"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264">
-                                        <a href="">新增导航</a>
-                                    </li>
-                                    <li id="menu-item-285"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285">
-                                        <a href="">新增图标</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        {{ range .Site.Data.headers }}
+			<li {{ if .list }}class="menu-item-has-children"{{ end }}>
+				<a href="{{ .link }}">
+                                    <i class="{{ .icon }} fa-lg mr-2"></i>
+                                    <span>{{ .item }}</span>
+                                </a>
+				<ul class="sub-menu">
+				{{ range .list }}
+				    <li><a href="{{ .url }}">{{ .name }}</a></li>
+				{{ end }}
+				</ul>
+			    </li>
+			{{ end }}
+			</ul>
+
                         {{ if not (eq $.Site.Params.qweather.key "") }}
                         <div class="rounded-circle weather">
                             <div id="he-plugin-simple" style="display: contents;"></div>

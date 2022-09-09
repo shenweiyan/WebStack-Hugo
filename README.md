@@ -63,7 +63,7 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 
 关于 Windows/Linux 下详细的安装与使用说明，请参考文档：
 
-《[WebStack-Hugo | 一个简洁的静态导航主题](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo) - [语雀](https://www.yuque.com/shenweiyan)》。
+[WebStack-Hugo | 一个简洁的静态导航主题](https://www.yuque.com/shenweiyan/cookbook/webstack-hugo) - [语雀](https://www.yuque.com/shenweiyan)
 
 
 ## 感谢

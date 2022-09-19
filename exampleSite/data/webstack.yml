@@ -97,7 +97,7 @@
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
         - title: 云筏科技
-          logo: default_url.ico
+          logo: ''
           url: https://my.cloudraft.cn/
           description: 云筏 - 科研云。
         - title: 极云普惠云电脑
@@ -627,7 +627,7 @@
           description: 阮一峰，科技爱好者周刊。
         - title: 酷壳
           url: https://www.coolshell.cn/
-          logo: default_url.ico
+          logo: ''
           description: 酷 壳 – CoolShell。
     - term: 设计规范
       links:

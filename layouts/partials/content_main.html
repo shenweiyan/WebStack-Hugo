@@ -26,11 +26,21 @@
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                         {{ if findRE "http.*?(.|\n)*?" .logo }}
-                                        <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
-                                            onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+					    {{ if $.Site.Params.defaultLogo }}
+                                            <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+					    {{ else }}
+					    <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+					    {{ end }}
                                         {{ else }}
-                                        <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
-                                            onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+					    {{ if $.Site.Params.defaultLogo }}
+					    <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+					    {{ else }}
+                                            <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+					    {{ end }}
                                         {{ end }}
                                     </div>
                                     <div class="url-info flex-fill">
@@ -78,11 +88,21 @@
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                         {{ if findRE "http.*?(.|\n)*?" .logo }}
-                                        <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
-                                            onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+					    {{ if $.Site.Params.defaultLogo }}
+					    <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+					    {{ else }}
+                                            <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+					    {{ end }}
                                         {{ else }}
-                                        <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
-                                            onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+					    {{ if $.Site.Params.defaultLogo }}
+                                            <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+					    {{ else }}
+                                            <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+					    {{ end }}
                                         {{ end }}
                                     </div>
                                     <div class="url-info flex-fill">

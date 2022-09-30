@@ -494,6 +494,7 @@ function setup_sidebar_menu()
 }
 function sidebar_menu_item_expand($li, $sub)
 {
+	/* 修复左侧栏不展开时点击图标显示异常 - shenweiyan.2022.09.30 - start
 	if($li.data('is-busy') || ($li.parent('.main-menu').length && public_vars.$sidebarMenu.hasClass('collapsed')))
 		return;
 	$li.addClass('expanded').data('is-busy', true);
@@ -537,6 +538,8 @@ function sidebar_menu_item_expand($li, $sub)
 	}, 0);
 	$li.data('sub_i_1', interval_1),
 	$li.data('sub_i_2', interval_2);
+	// 修复左侧栏不展开时点击图标显示异常 - shenweiyan.2022.09.30 - end
+        */
 }
 function sidebar_menu_item_collapse($li, $sub)
 {

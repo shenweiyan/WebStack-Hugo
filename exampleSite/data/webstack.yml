@@ -3,6 +3,11 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
+    - title: 关注我们
+      logo: ""
+      url: https://bioitee.com
+      qrcode: assets/images/logos/qrcode.jpg
+      description: BioIT 爱好者！
     - title: 语雀
       logo: 语雀.jpg
       url: https://www.yuque.com/
@@ -35,10 +40,6 @@
       logo: 搜狗微信.jpg
       url: https://weixin.sogou.com/
       description: 搜狗微信搜索，一搜即达。
-    - title: 简书
-      logo: 简书.png
-      url: https://www.jianshu.com/
-      description: 简书创作社区。
     - title: 知乎
       logo: 知乎.png
       url: https://www.zhihu.com/

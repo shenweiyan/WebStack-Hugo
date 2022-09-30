@@ -20,8 +20,13 @@
 			<!--去除 Tooltip
                         <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
 			去除 Tooltip -->
+			{{ if .qrcode }}
+			<a href="javascript:" target=""
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                        {{ else }}
                         <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}"
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
+			{{ end }}
                             <div class="card-body">
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
@@ -71,8 +76,8 @@
                     <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .taxonomy }}"></i>
                     {{ .taxonomy }}
                 </h4>
-                <div class="flex-fill"></div>
-                <a class='btn-move text-xs' href='#'>more+</a>
+                <!--div class="flex-fill"></div>
+                <a class='btn-move text-xs' href='#'>more+</a-->
             </div>
             <!--获取内容列表-->
             <div class="row">
@@ -82,8 +87,13 @@
 			<!--去除 Tooltip
 			<a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
 			-->
+			{{ if .qrcode }}
+			<a href="javascript:" target=""
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                        {{ else }}
                         <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" 
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
+			{{ end }}
                             <div class="card-body">
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">

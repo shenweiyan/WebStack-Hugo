@@ -91,7 +91,7 @@
                                 {{ range .Site.Data.webstack }}
                                     {{ if .list }}
                                     <li class="sidebar-item">
-                                        <a>
+                                        <a href="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}" class="smooth change-href" data-change="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}">    
                                             <i class="{{ .icon }} icon-fw icon-lg mr-2"></i>
                                             <span>{{ .taxonomy }}</span>
                                             <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>

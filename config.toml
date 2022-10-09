@@ -9,3 +9,7 @@ copyright = ""
 [params]
   author = "jobcher"
   description = "Webstack Hugo"
+[params.search]
+  enable = true
+[params.darkmode]
+  enable = false

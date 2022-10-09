@@ -33,16 +33,12 @@ jobs:
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
           tree
-          
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: recursive
       
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v2
-
       - name: Build with Hugo
         run: |
           hugo -D

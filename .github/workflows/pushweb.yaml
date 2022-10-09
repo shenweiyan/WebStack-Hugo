@@ -43,7 +43,7 @@ jobs:
         run: |
           pwd
           tree
-          cd exampleSite && hugo
+          cd /home/runner/work/WebStack-Hugo/WebStack-Hugo/exampleSite && hugo -t WebStack-Hugo
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
         with:

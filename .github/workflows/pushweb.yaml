@@ -42,7 +42,7 @@ jobs:
       - name: Build with Hugo
         run: |
           pwd
-          hugo -t WebStack-Hugo -D
+          hugo -t webstack-hugo -D
 
       - name: test
         run: |

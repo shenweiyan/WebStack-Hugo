@@ -50,5 +50,5 @@ jobs:
             PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
             EXTERNAL_REPOSITORY: jobcher/searchweb
             PUBLISH_BRANCH: main
-            PUBLISH_DIR: ./public
+            PUBLISH_DIR: ./assets
             commit_message: ${{ github.event.head_commit.message }}

@@ -7,5 +7,5 @@ disablePathToLower = true
 hasCJKLanguage = true
 copyright = ""
 [params]
-  author = "iplaycode"
+  author = "jobcher"
   description = "Webstack Hugo"

@@ -44,6 +44,10 @@ jobs:
           pwd
           hugo -t WebStack-Hugo -D
 
+      - name: test
+        run: |
+          cd public && tree
+
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
         with:

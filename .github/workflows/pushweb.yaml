@@ -39,10 +39,14 @@ jobs:
         with:
           submodules: recursive
       
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v2
+
       - name: Build with Hugo
         run: |
           pwd
-          hugo server
+          hugo -t WebStack-Hugo -D
 
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3

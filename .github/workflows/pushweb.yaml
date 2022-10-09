@@ -41,6 +41,7 @@ jobs:
       
       - name: Build with Hugo
         run: |
+          tree
           cd exampleSite && hugo
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3

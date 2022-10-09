@@ -3,13 +3,13 @@
 
 name = "Webstack Hugo Theme"
 license = "MIT"
-licenselink = "https://github.com/iplaycode/webstack-hugo/blob/master/LICENSE"
+licenselink = "https://nav.jobcher.com/"
 description = "Webstack Hugo theme"
-homepage = "https://iplaycode.github.io/nav/"
+homepage = "https://nav.jobcher.com/"
 tags = ["startpage", "webstack", "links", "nav"]
 features = []
 min_version = "1.0"
 
 [author]
   name = "iplaycode"
-  homepage = "https://iplaycode.github.io/nav/"
+  homepage = "https://nav.jobcher.com/"

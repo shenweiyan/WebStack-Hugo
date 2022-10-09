@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://nav.jobcher.com"
 languageCode = "zh-CN"
-title = "WebStack网址导航 Hugo主题"
+title = "jobcher网址导航"
 theme = "webstack-hugo"
 preserveTaxonomyNames = true
 disablePathToLower = true
@@ -8,7 +8,7 @@ hasCJKLanguage = true
 copyright = ""
 [params]
   author = "jobcher"
-  description = "Webstack Hugo"
+  description = "jobcher网址导航"
 [params.search]
   enable = true
 [params.darkmode]

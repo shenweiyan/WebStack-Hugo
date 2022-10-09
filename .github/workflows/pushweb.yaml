@@ -41,7 +41,7 @@ jobs:
       
       - name: Build with Hugo
         run: |
-          tree
+          cd ./exampleSite
           hugo
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
@@ -49,5 +49,5 @@ jobs:
             PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
             EXTERNAL_REPOSITORY: jobcher/searchweb
             PUBLISH_BRANCH: main
-            PUBLISH_DIR: ./public
+            PUBLISH_DIR: ./exampleSite/public
             commit_message: ${{ github.event.head_commit.message }}

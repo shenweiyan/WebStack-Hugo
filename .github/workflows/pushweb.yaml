@@ -42,6 +42,7 @@ jobs:
       - name: Build with Hugo
         run: |
           pwd
+          ll
           hugo -D
           tree
       - name: Deploy Web

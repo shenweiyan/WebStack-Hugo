@@ -42,8 +42,7 @@ jobs:
       - name: Build with Hugo
         run: |
           pwd
-          find . -name index.html
-          hugo -D
+          hugo server
 
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3

@@ -42,13 +42,13 @@ jobs:
       - name: Build with Hugo
         run: |
           pwd
+          hugo -t WebStack-Hugo -D
           tree
-          cd /home/runner/work/WebStack-Hugo/WebStack-Hugo/exampleSite && hugo -t WebStack-Hugo
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
         with:
             PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
             EXTERNAL_REPOSITORY: jobcher/searchweb
             PUBLISH_BRANCH: main
-            PUBLISH_DIR: ./exampleSite/public
+            PUBLISH_DIR: ./public
             commit_message: ${{ github.event.head_commit.message }}

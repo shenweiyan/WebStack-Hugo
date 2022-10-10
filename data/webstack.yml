@@ -105,12 +105,16 @@
 - taxonomy: 技术工具
   icon: linecons-diamond
   list: 
-    - term: 技术论坛
+    - term: 技术网站
       links:
         - title: 恩山无线论坛
           url: https://www.right.com.cn/forum/
           logo: assets/images/logos/enshan.jfif
           description: 恩山无线论坛，路由器网络技术论坛
+        - title: IPFS
+          url: https://ipfs.tech/
+          logo: assets/images/logos/IPFS.png
+          description: IPFS官网，WEB3.0网站
       
     - term: 界面设计
       links:

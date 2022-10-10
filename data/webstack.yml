@@ -141,15 +141,9 @@
 
     - term: 在线工具
       links:
-        - title: 稿定抠图
-          url: https://www.gaoding.com
-          logo: assets/images/logos/gaoding.png
-          description: 免费在线抠图软件,图片快速换背景-抠白底图
+        - title: bitwarden
+          url: https://bitwarden.com/
+          logo: assets/images/logos/bitwarden.jfif
+          description: 密码库
         
-    - term: Chrome插件
-      links:
-        - title: wappalyzer
-          url: https://www.wappalyzer.com/
-          logo: assets/images/logos/wappalyzer.png
-          description: Identify technology on websites
 

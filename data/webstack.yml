@@ -146,6 +146,10 @@
           url: https://www.bboy.app/
           logo: assets/images/logos/Bboysoul.png
           description: Bboysoul's Blog
+        - title: 阮一峰的个人网站
+          url: https://www.ruanyifeng.com/
+          logo: assets/images/logos/ruanyifeng.ico
+          description: 阮一峰的个人网站
 
     - term: 在线工具
       links:

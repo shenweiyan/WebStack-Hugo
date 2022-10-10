@@ -53,7 +53,7 @@
       logo: assets/images/logos/google.png
       url: https://www.google.com/
       description: Google 搜索引擎
-    - title: Google Ads
+    - title: Ads
       logo: assets/images/logos/google.png
       url: https://www.google.com/adsense/
       description: Google 广告服务
@@ -102,6 +102,10 @@
           logo: assets/images/logos/video.png
           url: https://www.czspp.com/
           description: 厂长影视，电影资源在线播放
+        - title: 抖音网页版
+          logo: assets/images/logos/douyin.jfif
+          url: https://www.douyin.com/
+          description: 抖音网页版
       
     - term: 资源下载
       links:

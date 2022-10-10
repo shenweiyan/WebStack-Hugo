@@ -15,7 +15,10 @@
       logo: assets/images/logos/jobcher.png
       url: https://www.jobcher.com/
       description: 个人博客分享，记录打工
-
+    - title: NAS 群晖
+      logo: assets/images/logos/NAS 群晖
+      url: https://nas.jobcher.com/
+      description: 个人NAS 群晖
 
     
 
@@ -50,6 +53,14 @@
           logo: assets/images/logos/xinhuanew.png
           url: http://www.xinhuanet.com/
           description: 新华社，共产党党媒
+        - title: 澎湃新闻
+          logo: assets/images/logos/penpai.png
+          url: https://www.thepaper.cn/
+          description: 澎湃新闻
+        - title: 新浪新闻
+          logo: assets/images/logos/xinlang.webp
+          url: https://www.sina.com.cn/
+          description: 新浪新闻
 
       
     - term: 国外新闻
@@ -79,20 +90,20 @@
       
     - term: 资源下载
       links:
-        - title: Iconsfeed
-          logo: assets/images/logos/iconsfeed.png
-          url: http://www.iconsfeed.com/
-          description: iOS icons gallery
+        - title: MP4电影下载
+          logo: assets/images/logos/video.png
+          url: https://www.domp4.cc/
+          description: MP4电影下载，磁力链接
 
 - taxonomy: 技术工具
   icon: linecons-diamond
   list: 
-    - term: 图形创意
+    - term: 技术论坛
       links:
-        - title: photoshop
-          url: https://www.adobe.com/cn/products/photoshop.html
-          logo: assets/images/logos/photoshop.png
-          description: Photoshop不需要解释
+        - title: 恩山无线论坛
+          url: https://www.right.com.cn/forum/
+          logo: assets/images/logos/enshan.jfif
+          description: 恩山无线论坛，路由器网络技术论坛
       
     - term: 界面设计
       links:

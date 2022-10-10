@@ -1,52 +1,13 @@
 ---
 
-- taxonomy: 常用推荐
+- taxonomy: 个人网站
   icon: linecons-star
   links: 
-    - title: Dribbble
-      logo: assets/images/logos/dribbble.png
-      url: https://dribbble.com/
-      description: 全球UI设计师作品分享平台。
-    - title: Behance
-      logo: assets/images/logos/behance.png
-      url: https://behance.net/
-      description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-    - title: UI中国
-      logo: assets/images/logos/uicn.png
-      url: https://www.ui.cn/
-      description: 图形交互与界面设计交流、作品展示、学习平台。
-    - title: 站酷
-      logo: assets/images/logos/zcool.png
-      url: https://www.zcool.com.cn/
-      description: 中国人气设计师互动平台
-    - title: Pinterest
-      logo: assets/images/logos/pinterest.png
-      url: https://www.pinterest.com/
-      description: 全球美图收藏采集站
-    - title: 花瓣
-      logo: assets/images/logos/huaban.png
-      url: https://huaban.com/
-      description: 收集灵感,保存有用的素材
-    - title: Medium
-      logo: assets/images/logos/medium.png
-      url: https://medium.com/
-      description: 高质量设计文章
-    - title: 优设
-      logo: assets/images/logos/uisdc.png
-      url: https://www.uisdc.com/
-      description: 设计师交流学习平台
-    - title: Producthunt
-      logo: assets/images/logos/producthunt.png
-      url: https://www.producthunt.com/
-      description: 发现新鲜有趣的产品
-    - title: Youtube
-      logo: assets/images/logos/youtube.png
-      url: https://www.youtube.com/
-      description: 全球最大的学习分享平台
-    - title: Google
-      logo: assets/images/logos/google.png
-      url: https://www.google.com/
-      description: 全球最大的UI学习分享平台
+    - title: 打工人日志
+      logo: assets/images/logos/jobcher.png
+      url: https://www.jobcher.com/
+      description: 个人博客分享，记录打工
+
     
 
 - taxonomy: 社区咨询

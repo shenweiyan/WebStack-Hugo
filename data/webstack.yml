@@ -3,72 +3,30 @@
 - taxonomy: 个人网站
   icon: linecons-star
   links: 
-    - title: 打工人日志
-      logo: assets/images/logos/jobcher.png
-      url: https://www.jobcher.com/
-      description: 个人博客分享，记录打工
     - title: 网址导航
       logo: assets/images/logos/jobcher.png
       url: https://nav.jobcher.com/
-      description: 网址导航
+      description: 个人网址导航，随缘更新
     - title: jellyfin
       logo: assets/images/logos/jellyfin.jfif
       url: https://video.jobcher.com/
       description: 家庭视频资源，如要开通请联系我
+    - title: 打工人日志
+      logo: assets/images/logos/jobcher.png
+      url: https://www.jobcher.com/
+      description: 个人博客分享，记录打工
+
 
     
 
 - taxonomy: 常用网站
   icon: linecons-lightbulb
   links: 
-    - title: 雷锋网
-      logo: assets/images/logos/leiphone.png
-      url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
-      logo: assets/images/logos/36kr.png
-      url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
-      logo: assets/images/logos/digitaling.png
-      url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
-      logo: assets/images/logos/lieyunwang.png
-      url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
-      logo: assets/images/logos/woshipm.png
-      url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
-      logo: assets/images/logos/zaodula.png
-      url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
-      logo: assets/images/logos/chanpin100.png
-      url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
-    - title: PMCAFF
-      logo: assets/images/logos/pmcaff.png
-      url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
-      logo: assets/images/logos/iyunying.png
-      url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
-      logo: assets/images/logos/niaogebiji.png
-      url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
-      logo: assets/images/logos/gtn9.png
-      url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
-      logo: assets/images/logos/uigreat.png
-      url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+    - title: RSS阅读
+      logo: assets/images/logos/RSS.jfif
+      url: https://www.readdig.com/
+      description: RSS阅读订阅
+
     
 
 - taxonomy: 灵感采集

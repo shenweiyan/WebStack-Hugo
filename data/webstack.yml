@@ -40,8 +40,11 @@
     - title: Github
       logo: assets/images/logos/github.png
       url: https://www.cloudflare.com/
-      description: Github全球最大同性交流平台
-
+      description: Github全球最大同性交流平台，开源社区
+    - title: 腾讯云
+      logo: assets/images/logos/腾讯云.jpg
+      url: https://cloud.tencent.com/
+      description: 产业智变，云启未来。
     
 
 - taxonomy: 新闻资讯

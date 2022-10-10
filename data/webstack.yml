@@ -45,6 +45,10 @@
       logo: assets/images/logos/腾讯云.jpg
       url: https://cloud.tencent.com/
       description: 产业智变，云启未来。
+    - title: youtube
+      logo: assets/images/logos/youtube.png
+      url: https://www.youtube.com/
+      description: youtube视频网站
     
 
 - taxonomy: 新闻资讯

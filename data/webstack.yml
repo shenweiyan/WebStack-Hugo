@@ -132,19 +132,12 @@
           description: filebase官网，WEB3.0存储站点
         
 
-    - term: 交互动效
+    - term: 技术博客
       links:
-        - title: Adobe After Effects CC
-          url: https://www.adobe.com/cn/products/aftereffects/
-          logo: assets/images/logos/AdobeAfterEffectsCC.png
-          description: 电影般的视觉效果和动态图形。
-
-    - term: 在线配色
-      links:
-        - title: vanschneider
-          url: http://www.vanschneider.com/colors
-          logo: assets/images/logos/vanschneider.png
-          description: Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.
+        - title: Bboysoul's Blog
+          url: https://www.bboy.app/
+          logo: assets/images/logos/Bboysoul.png
+          description: Bboysoul's Blog
 
     - term: 在线工具
       links:

@@ -30,6 +30,14 @@
       logo: assets/images/logos/v2ex.png
       url: https://www.readdig.com/
       description: V2EX开发者论坛
+    - title: Cloudflare
+      logo: assets/images/logos/cloudflare.png
+      url: https://www.cloudflare.com/zh-cn/
+      description: Cloudflare CDN加速、域名解析
+    - title: Github
+      logo: assets/images/logos/github.png
+      url: https://www.cloudflare.com/zh-cn/
+      description: Github全球最大同性交流平台
 
     
 

@@ -26,18 +26,22 @@
       logo: assets/images/logos/RSS.jfif
       url: https://www.readdig.com/
       description: RSS阅读订阅
+    - title: V2EX
+      logo: assets/images/logos/v2ex.png
+      url: https://www.readdig.com/
+      description: V2EX开发者论坛
 
     
 
-- taxonomy: 灵感采集
+- taxonomy: 新闻资讯
   icon: linecons-doc
   list: 
-    - term: 发现产品
+    - term: 国内新闻
       links:
-        - title: Producthunt
-          logo: assets/images/logos/producthunt.png
-          url: https://www.producthunt.com/
-          description: 发现新鲜有趣的产品
+        - title: BBC中文
+          logo: assets/images/logos/BBC_CN.png
+          url: https://www.bbc.com/zhongwen/simp
+          description: BBC中文新闻站
         - title: NEXT
           logo: assets/images/logos/NEXT.png
           url: https://next.36kr.com/posts
@@ -59,7 +63,7 @@
           url: https://faxian.appinn.com/
           description: 在这里发现更多有趣的应用
       
-    - term: 界面灵感
+    - term: 国外新闻
       links:
         - title: Pttrns
           logo: assets/images/logos/Pttrns.png
@@ -77,71 +81,12 @@
           logo: assets/images/logos/AndroidNiceties.png
           url: https://androidniceties.tumblr.com/
           description: A collection of screenshots encompassing some of the most beautiful looking Android apps.
-      
-    - term: 网页灵感
-      links:
-        - title: Awwwards
-          logo: assets/images/logos/awwwards.png
-          url: https://www.awwwards.com/
-          description: Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.
-        - title: CSS Design Awards
-          logo: assets/images/logos/CSSDesignAwards.png
-          url: https://www.cssdesignawards.com/
-          description: Website Awards & Inspiration - CSS Gallery
-        - title: The FWA
-          logo: assets/images/logos/fwa.png
-          url: https://thefwa.com/
-          description: FWA - showcasing innovation every day since 2000
-        - title: Ecommercefolio
-          logo: assets/images/logos/Ecommercefolio.png
-          url: http://www.ecommercefolio.com/
-          description: Only the Best Ecommerce Design Inspiration
-        - title: Lapa
-          logo: assets/images/logos/Lapa.png
-          url: http://www.lapa.ninja/
-          description: The best landing page design inspiration from around the web.
-        - title: Reeoo
-          logo: assets/images/logos/reeoo.png
-          url: http://reeoo.com/
-          description: web design inspiration and website gallery
-        - title: Designmunk
-          logo: assets/images/logos/designmunk.png
-          url: https://designmunk.com/
-          description: Best Homepage Design Inspiration
-        - title: Best Websites Gallery
-          logo: assets/images/logos/BWG.png
-          url: https://bestwebsite.gallery/
-          description: Website Showcase Inspiration | Best Websites Gallery
-        - title: Pages
-          logo: assets/images/logos/pages.png
-          url: http://www.pages.xyz/
-          description: Curated directory of the best Pages
-        - title: SiteSee
-          logo: assets/images/logos/SiteSee.png
-          url: https://sitesee.co/
-          description: SiteSee is a curated gallery of beautiful, modern websites collections.
-        - title: Site Inspire
-          logo: assets/images/logos/siteInspire.png
-          url: https://www.siteinspire.com/
-          description: A CSS gallery and showcase of the best web design inspiration.
-        - title: WebInspiration
-          logo: assets/images/logos/WebInspiration.png
-          url: http://web.uedna.com/
-          description: 网页设计欣赏,全球顶级网页设计
-        - title: navnav
-          logo: assets/images/logos/navnav.png
-          url: https://navnav.co/
-          description: A ton of CSS, jQuery, and JavaScript responsive navigation examples, demos, and tutorials from all over the web.
-        - title: Really Good UX
-          logo: assets/images/logos/ReallyGoodUX.png
-          url: https://www.reallygoodux.io/
-          description: A library of screenshots and examples of really good UX. Brought to you by
 
       
-- taxonomy: 素材资源
+- taxonomy: 影视资源
   icon: linecons-thumbs-up
   list: 
-    - term: 图标素材
+    - term: 在线播放
       links:
         - title: Iconfinder
           logo: assets/images/logos/Iconfinder.png
@@ -196,7 +141,7 @@
           url: http://simplelineicons.com/
           description: Simple line Icons pack
       
-    - term: LOGO设计
+    - term: 资源下载
       links:
         - title: Iconsfeed
           logo: assets/images/logos/iconsfeed.png
@@ -215,369 +160,7 @@
           url: http://instantlogosearch.com/
           description: Search & download thousands of logos instantly
 
-    - term: 平面素材
-      links:
-        - title: freepik
-          logo: assets/images/logos/freepik.png
-          url: https://www.freepik.com/
-          description: More than a million free vectors, PSD, photos and free icons.
-        - title: wallhalla
-          logo: assets/images/logos/wallhalla.png
-          url: https://wallhalla.com/
-          description: Find awesome high quality wallpapers for desktop and mobile in one place.
-        - title: 365PSD
-          logo: assets/images/logos/365PSD.png
-          url: https://365psd.com/
-          description: Free PSD &amp; Graphics, Illustrations
-        - title: Medialoot
-          logo: assets/images/logos/Medialoot.png
-          url: https://medialoot.com/
-          description: Free &amp; Premium Design Resources &mdash; Medialoot
-        - title: 千图网
-          logo: assets/images/logos/qiantu.png
-          url: http://www.58pic.com/
-          description: 专注免费设计素材下载的网站
-        - title: 千库网
-          logo: assets/images/logos/qianku.png
-          url: http://588ku.com/
-          description: 免费png图片背景素材下载
-        - title: 我图网
-          logo: assets/images/logos/wotu.png
-          url: http://www.ooopic.com/
-          description: 我图网,提供图片素材及模板下载,专注正版设计作品交易
-        - title: 90设计
-          logo: assets/images/logos/90sheji.png
-          url: http://90sheji.com/
-          description: 电商设计（淘宝美工）千图免费淘宝素材库
-        - title: 昵图网
-          logo: assets/images/logos/nipic.png
-          url: http://www.nipic.com/
-          description: 原创素材共享平台
-        - title: 懒人图库
-          logo: assets/images/logos/lanrentuku.png
-          url: http://www.lanrentuku.com/
-          description: 懒人图库专注于提供网页素材下载
-        - title: 素材搜索
-          logo: assets/images/logos/sousucai.png
-          url: http://so.ui001.com/
-          description: 设计素材搜索聚合
-        - title: PS饭团网
-          logo: assets/images/logos/psefan.png
-          url: http://psefan.com/
-          description: 不一样的设计素材库！让自己的设计与众不同！
-        - title: 素材中国
-          logo: assets/images/logos/sccnn.png
-          url: http://www.sccnn.com/
-          description: 免费素材共享平台
-      
-    - term: UI资源
-      links:
-        - title: Freebiesbug
-          logo: assets/images/logos/freebiesbug.png
-          url: https://freebiesbug.com/
-          description: Hand-picked resources for web designer and developers, constantly updated.
-        - title: Freebie Supply
-          logo: assets/images/logos/freebiesupply.png
-          url: https://freebiesupply.com/
-          description: Free Resources For Designers
-        - title: 云瑞
-          logo: assets/images/logos/yrucd.png
-          url: https://www.yrucd.com/
-          description: 优秀设计资源的分享网站
-        - title: Designmodo
-          logo: assets/images/logos/Designmodo.png
-          url: https://designmodo.com/
-          description: Web Design Blog and Shop
-        - title: 稀土区
-          logo: assets/images/logos/xituqu.png
-          url: https://xituqu.com/
-          description: 优质设计开发资源分享
-        - title: ui8
-          logo: assets/images/logos/ui8.png
-          url: https://ui8.net/
-          description: UI Kits, Wireframe Kits, Templates, Icons and More
-        - title: uplabs
-          logo: assets/images/logos/uplabs.png
-          url: https://www.uplabs.com/
-          description: Daily resources for product designers & developers
-        - title: UIkit.me
-          logo: assets/images/logos/uikitme.png
-          url: http://www.uikit.me/
-          description: 最便捷新鲜的uikit资源下载网站
-        - title: Fribbble
-          logo: assets/images/logos/Fribbble.png
-          url: http://www.fribbble.com/
-          description: Free PSD files and other free design resources by Dribbblers.
-        - title: PrincipleRepo
-          logo: assets/images/logos/PrincipleRepo.png
-          url: http://principlerepo.com/
-          description: Free, High Quality Principle Resources
-      
-    - term: Sketch资源
-      links:
-        - title: Sketch
-          url: https://sketchapp.com/
-          logo: assets/images/logos/Sketch.png
-          description: The digital design toolkit
-        - title: Sketch Measure
-          url: http://utom.design/measure/
-          logo: assets/images/logos/SketchMeasure.png
-          description: Friendly user interface offers you a more intuitive way of making marks.
-        - title: Sketch App Sources
-          url: https://www.sketchappsources.com/
-          logo: assets/images/logos/sketchappsources.png
-          description: Free design resources and plugins - Icons, UI Kits, Wireframes, iOS, Android Templates for Sketch
-        - title: Sketch.im
-          url: http://www.sketch.im/
-          logo: assets/images/logos/sketchIm.png
-          description: Sketch 相关资源汇聚
-        - title: Sketch Hunt
-          url: http://sketchhunt.com/
-          logo: assets/images/logos/sketchhunt.png
-          description: Sketch Hunt is an independent blog sharing gems in learning, plugins &amp; design tools for fans of Sketch app.
-        - title: Sketch中文网
-          url: http://www.sketchcn.com/
-          logo: assets/images/logos/sketchcn.png
-          description: 分享最新的Sketch中文手册
-        - title: Awesome Sketch Plugins
-          url: https://awesome-sket.ch/
-          logo: assets/images/logos/AwesomeSketchPlugins.png
-          description: A collection of really useful Sketch plugins.
-        - title: Sketchcasts
-          url: https://www.sketchcasts.net/
-          logo: assets/images/logos/sketchcasts.png
-          description: Learn Sketch Train your design skills with a weekly video tutorial
-      
-    - term: 字体资源
-      links:
-        - title: Google Font
-          url: https://fonts.google.com/
-          logo: assets/images/logos/googlefont.png
-          description: Making the web more beautiful, fast, and open through great typography
-        - title: Typekit
-          url: https://typekit.com/
-          logo: assets/images/logos/typekit.png
-          description: Quality fonts from the world’s best foundries.
-        - title: 方正字库
-          url: http://www.foundertype.com/
-          logo: assets/images/logos/Fondertype.png
-          description: 方正字库官方网站
-        - title: 字体传奇网
-          url: http://ziticq.com/
-          logo: assets/images/logos/ziticq.png
-          description: 中国首个字体品牌设计师交流网
-        - title: 私藏字体
-          url: http://sicangziti.com/
-          logo: assets/images/logos/sicangziti.png
-          description: 优质字体免费下载站
-        - title: Fontsquirrel
-          url: https://www.fontsquirrel.com/
-          logo: assets/images/logos/fontsquirrel.png
-          description: FREE fonts for graphic designers
-        - title: Urban Fonts
-          url: https://www.urbanfonts.com/
-          logo: assets/images/logos/UrbanFonts.png
-          description: Download Free Fonts and Free Dingbats.
-        - title: Lost Type
-          url: http://www.losttype.com/
-          logo: assets/images/logos/losttype.png
-          description: Lost Type is a Collaborative Digital Type Foundry
-        - title: FONTS2U
-          url: https://fonts2u.com/
-          logo: assets/images/logos/fonts2u.png
-          description: Download free fonts for Windows and Macintosh.
-        - title: Fontex
-          url: http://www.fontex.org/
-          logo: assets/images/logos/fontex.png
-          description: Free Fonts to Download + Premium Typefaces
-        - title: FontM
-          url: http://fontm.com/
-          logo: assets/images/logos/FontM.png
-          description: Free Fonts
-        - title: My Fonts
-          url: http://www.myfonts.com/
-          logo: assets/images/logos/MyFonts.png
-          description: Fonts for Print, Products & Screens
-        - title: Da Font
-          url: https://www.dafont.com/
-          logo: assets/images/logos/dafont.png
-          description: Archive of freely downloadable fonts.
-        - title: OnlineWebFonts
-          url: https://www.onlinewebfonts.com/
-          logo: assets/images/logos/OnlineWebFonts.png
-          description: WEB Free Fonts for Windows and Mac / Font free Download
-        - title: Abstract Fonts
-          url: http://www.abstractfonts.com/
-          logo: assets/images/logos/abstractfonts.png
-          description: Abstract Fonts (13,866 free fonts)
-      
-    - term: Mockup
-      links:
-        - title: MockupZone
-          url: https://mockup.zone/
-          logo: assets/images/logos/MockupZone.png
-          description: Mockup Zone is an online store where you can find free and premium PSD mockup files to show your designs in a professional way.
-        - title: Dunnnk
-          url: http://dunnnk.com/
-          logo: assets/images/logos/Dunnnk.png
-          description:  Generate Product Mockups For Free
-        - title: Graphberry
-          url: http://www.graphberry.com/
-          logo: assets/images/logos/graphberry.png
-          description: Free design resources, Mockups, PSD web templates, Icons
-        - title: Threed
-          url: http://threed.io/
-          logo: assets/images/logos/threed.png
-          description: Generate 3D Mockups right in your Browser
-        - title: Mockup World
-          url: https://free.lstore.graphics/
-          logo: assets/images/logos/mockupworld.png
-          description: The best free Mockups from the Web
-        - title: Lstore
-          url: https://free.lstore.graphics/
-          logo: assets/images/logos/lstore.png
-          description: Exclusive mindblowing freebies for designers and developers
-        - title: pixeden
-          url: https://www.pixeden.com/
-          logo: assets/images/logos/pixeden.png
-          description: free web resources and graphic design templates.
-        - title: For Graphic TM
-          url: http://forgraphictm.com/
-          logo: assets/images/logos/forgraphictm.png
-          description: High Quality PSD Mockups for Graphic Designers.
-      
-    - term: 摄影图库
-      links:
-        - title: Unsplash
-          url: https://unsplash.com/
-          logo: assets/images/logos/unsplash.png
-          description: Beautiful, free photos.
-        - title: visualhunt
-          url: https://visualhunt.com/
-          logo: assets/images/logos/visualhunt.png
-          description: 100% Free High Quality Photos
-        - title: librestock
-          url: https://librestock.com/
-          logo: assets/images/logos/librestock.png
-          description: 65,084 high quality do-what-ever-you-want stock photos
-        - title: pixabay
-          url: https://pixabay.com/
-          logo: assets/images/logos/pixabay.png
-          description: 可在任何地方使用的免费图片和视频
-        - title: SplitShire
-          url: https://www.splitshire.com/
-          logo: assets/images/logos/SplitShire.png
-          description: Free Stock Photos and Videos for commercial use.
-        - title: StockSnap
-          url: https://stocksnap.io/
-          logo: assets/images/logos/StockSnap.png
-          description: Beautiful free stock photos
-        - title: albumarium
-          url: http://albumarium.com/
-          logo: assets/images/logos/albumarium.png
-          description: The best place to find & share beautiful images
-        - title: myphotopack
-          url: https://myphotopack.com/
-          logo: assets/images/logos/myphotopack.png
-          description: A free photo pack just for you. Every month.
-        - title: Notaselfie
-          url: http://notaselfie.com/
-          logo: assets/images/logos/notaselfie.png
-          description: Photos that happen along the way. You can use the images anyway you like. Have fun!
-        - title: papers
-          url: http://papers.co/
-          logo: assets/images/logos/papers.png
-          description: Wallpapers Every Hour!Hand collected :)
-        - title: stokpic
-          url: http://stokpic.com/
-          logo: assets/images/logos/stokpic.png
-          description: Free Stock Photos For Commercial Use
-        - title: 55mm
-          url: https://55mm.co/visuals
-          logo: assets/images/logos/55mm.png
-          description: Use our FREE photos to tell your story! 
-        - title: thestocks
-          url: http://thestocks.im/
-          logo: assets/images/logos/thestocks.png
-          description: Use our FREE photos to tell your story! 
-        - title: freenaturestock
-          url: http://freenaturestock.com/
-          logo: assets/images/logos/freenaturestock.png
-          description: Exclusive mindblowing freebies for designers and developers
-        - title: negativespace
-          url: https://negativespace.co/
-          logo: assets/images/logos/negativespace.png
-          description: Beautiful, High-Resolution Free Stock Photos
-        - title: gratisography
-          url: https://gratisography.com/
-          logo: assets/images/logos/gratisography.png
-          description: Free high-resolution pictures you can use on your personal and commercial projects, free of copyright restrictions. 
-        - title: imcreator
-          url: http://imcreator.com/free
-          logo: assets/images/logos/imcreator.png
-          description: A curated collection of free web design resources, all for commercial use.
-        - title: lifeofpix
-          url: http://www.lifeofpix.com/
-          logo: assets/images/logos/lifeofpix.png
-          description: Free high resolution photography
-        - title: skitterphoto
-          url: https://skitterphoto.com/
-          logo: assets/images/logos/skitterphoto.png
-          description: Free Stock Photos for Creative Professionals
-        - title: mmtstock
-          url: https://mmtstock.com/
-          logo: assets/images/logos/mmtstock.png
-          description: Free photos for commercial use
-        - title: skitterphoto
-          url: https://skitterphoto.com/
-          logo: assets/images/logos/skitterphoto.png
-          description: a place to find, show and share public domain photos
-        - title: magdeleine
-          url: https://magdeleine.co/browse/
-          logo: assets/images/logos/magdeleine.png
-          description: HAND-PICKED FREE PHOTOS FOR YOUR INSPIRATION
-        - title: jeshoots
-          url: http://jeshoots.com/
-          logo: assets/images/logos/jeshoots.png
-          description: New Free Photos & Mockups in to your Inbox!
-        - title: hdwallpapers
-          url: https://www.hdwallpapers.net
-          logo: assets/images/logos/hdwallpapers.png
-          description: High Definition Wallpapers & Desktop Backgrounds
-        - title: publicdomainarchive
-          url: http://publicdomainarchive.com/
-          logo: assets/images/logos/publicdomainarchive.png
-          description: New 100% Free Stock Photos. Every. Single. Week.
-      
-    - term: PPT资源
-      links:
-        - title: OfficePLUS
-          url: http://www.officeplus.cn/Template/Home.shtml
-          logo: assets/images/logos/officeplus.png
-          description: OfficePLUS，微软Office官方在线模板网站！
-        - title: 优品PPT
-          url: http://www.ypppt.com/
-          logo: assets/images/logos/ypppt.png
-          description: 高质量的模版，而且还有PPT图表，PPT背景图等资源
-        - title: PPT+
-          url: http://www.pptplus.cn/
-          logo: assets/images/logos/pptplus.png
-          description: PPT加直播、录制和分享—PPT+语音内容分享平台
-        - title: PPTMind
-          url: http://www.pptmind.com/
-          logo: assets/images/logos/pptmind.png
-          description: 分享高端ppt模板与keynote模板的数字作品交易平台
-        - title: tretars
-          url: http://www.tretars.com/ppt-templates
-          logo: assets/images/logos/tretars.png
-          description: The best free Mockups from the Web
-        - title: 5百丁
-          url: http://ppt.500d.me/
-          logo: assets/images/logos/500d.png
-          description: 中国领先的PPT模板共享平台
-      
-
-- taxonomy: 常用工具
+- taxonomy: 技术工具
   icon: linecons-diamond
   list: 
     - term: 图形创意
@@ -885,72 +468,3 @@
           logo: assets/images/logos/uxren.png
           description: 用户体验人的专业社区
 
-
-
-- taxonomy: UED团队
-  icon: linecons-user
-  links: 
-    - title: Airbnb Design
-      url: https://airbnb.design
-      logo: assets/images/logos/AirbnbDesign.png
-      description: Airbnb Design
-    - title: Facebook Design
-      url: http://facebook.design/
-      logo: assets/images/logos/FacebookDesign.png
-      description: Facebook Design
-    - title: Google Design
-      url: https://design.google/
-      logo: assets/images/logos/GoogleDesign.png
-      description: Google Design
-    - title: eico design
-      url: http://eicodesign.com/
-      logo: assets/images/logos/eico.png
-      description: 数字化咨询与产品专家
-    - title: nice design
-      url: http://www.niceui.cn/
-      logo: assets/images/logos/niceui.png
-      description: nicedesign奈思设计是领先的用户体验设计与互联网品牌建设公司
-    - title: 腾讯CDC
-      url: http://cdc.tencent.com/
-      logo: assets/images/logos/cdc.png
-      description: 腾讯CDC关注于互联网视觉设计、交互设计、用户研究、前端开发。
-    - title: TGideas
-      url: http://tgideas.qq.com/
-      logo: assets/images/logos/tgideas.png
-      description: TGideas隶属于腾讯公司互动娱乐业务系统的专业推广类设计团队
-    - title: ISUX
-      url: https://isux.tencent.com/
-      logo: assets/images/logos/isux.png
-      description: 腾讯社交用户体验设计部
-    - title: MXD
-      url: http://mxd.tencent.com/
-      logo: assets/images/logos/mxd.png
-      description: 腾讯MIG无线互联网事业群设计团队
-    - title: Aliued
-      url: http://www.aliued.com/
-      logo: assets/images/logos/aliued.png
-      description: 阿里巴巴国际UED团队
-    - title: U一点
-      url: http://www.aliued.cn/
-      logo: assets/images/logos/aliuedcn.png
-      description: 阿里巴巴（中国站）用户体验设计部博客U一点设计 UED团队
-    - title: 网易uedc
-      url: http://uedc.163.com/
-      logo: assets/images/logos/uedc.png
-      description: 网易用户体验设计中心（User Experience Design Center）
-    - title: 百度用户体验中心
-      url: http://ued.baidu.com/
-      logo: assets/images/logos/uedbaidu.png
-      description: 百度用户体验中心
-    - title: 京东设计中心
-      url: http://jdc.jd.com/
-      logo: assets/images/logos/JDC.png
-      description: 京东设计中心
-    - title: 百度企业产品用户体验中心
-      url: http://eux.baidu.com/
-      logo: assets/images/logos/euxbaidu.png
-      description: 百度企业产品用户体验中心
-    - title: 携程设计委员会
-      url: http://ued.ctrip.com/
-      logo: assets/images/logos/ctrip.png
-      description: 携程设计委员会-Ctrip Design Committee

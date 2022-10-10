@@ -111,6 +111,14 @@
           url: https://www.right.com.cn/forum/
           logo: assets/images/logos/enshan.jfif
           description: 恩山无线论坛，路由器网络技术论坛
+        - title: 鸿鹄论坛
+          url: https://bbs.hh010.com/
+          logo: assets/images/logos/honghu.png
+          description: 鸿鹄论坛，计算机类考证
+        - title: 吾爱破解论坛
+          url: https://bbs.hh010.com/
+          logo: assets/images/logos/52pojie.jfif
+          description: 吾爱破解论坛，破解软件，逆向工程
       
     - term: WEB3.0
       links:
@@ -120,7 +128,7 @@
           description: IPFS官网，WEB3.0网站
         - title: filebase
           url: https://console.filebase.com/
-          logo: assets/images/logos/IPFS.png
+          logo: assets/images/logos/filebase.png
           description: filebase官网，WEB3.0存储站点
         
 

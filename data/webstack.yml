@@ -32,11 +32,11 @@
       description: V2EX开发者论坛
     - title: Cloudflare
       logo: assets/images/logos/cloudflare.png
-      url: https://www.cloudflare.com/zh-cn/
+      url: https://www.cloudflare.com/
       description: Cloudflare CDN加速、域名解析
     - title: Github
       logo: assets/images/logos/github.png
-      url: https://www.cloudflare.com/zh-cn/
+      url: https://www.cloudflare.com/
       description: Github全球最大同性交流平台
 
     
@@ -46,10 +46,10 @@
   list: 
     - term: 国内新闻
       links:
-        - title: BBC中文
-          logo: assets/images/logos/BBC_CN.png
-          url: https://www.bbc.com/zhongwen/simp
-          description: BBC中文新闻站
+        - title: 新华社
+          logo: assets/images/logos/xinhuanew.png
+          url: http://www.xinhuanet.com/
+          description: 新华社，共产党党媒
 
       
     - term: 国外新闻

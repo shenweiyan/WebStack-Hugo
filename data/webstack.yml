@@ -58,7 +58,15 @@
           logo: assets/images/logos/BBC_CN.png
           url: https://www.bbc.com/zhongwen/simp
           description: BBC中文新闻站
-      
+        - title: 华尔街日报
+          logo: assets/images/logos/wsj.png
+          url: https://cn.wsj.com/
+          description: 华尔街日报中文版
+        - title: VOA
+          logo: assets/images/logos/VOA.jfif
+          url: https://www.voachinese.com/
+          description: 美国之音VOA新闻站
+
 - taxonomy: 影视资源
   icon: linecons-thumbs-up
   list: 

@@ -49,6 +49,14 @@
       logo: assets/images/logos/youtube.png
       url: https://www.youtube.com/
       description: youtube视频网站
+    - title: Google
+      logo: assets/images/logos/google.png
+      url: https://www.google.com/
+      description: Google 搜索引擎
+    - title: Google Ads
+      logo: assets/images/logos/google.png
+      url: https://www.google.com/adsense/
+      description: Google 广告服务
     
 
 - taxonomy: 新闻资讯

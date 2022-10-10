@@ -7,11 +7,19 @@
       logo: assets/images/logos/jobcher.png
       url: https://www.jobcher.com/
       description: 个人博客分享，记录打工
+    - title: 网址导航
+      logo: assets/images/logos/jobcher.png
+      url: https://nav.jobcher.com/
+      description: 网址导航
+    - title: jellyfin
+      logo: assets/images/logos/jellyfin.jfif
+      url: https://video.jobcher.com/
+      description: 家庭视频资源，如要开通请联系我
 
     
 
-- taxonomy: 社区咨询
-  icon: linecons-doc
+- taxonomy: 常用网站
+  icon: linecons-lightbulb
   links: 
     - title: 雷锋网
       logo: assets/images/logos/leiphone.png
@@ -64,7 +72,7 @@
     
 
 - taxonomy: 灵感采集
-  icon: linecons-lightbulb
+  icon: linecons-doc
   list: 
     - term: 发现产品
       links:

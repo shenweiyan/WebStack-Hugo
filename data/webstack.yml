@@ -142,6 +142,10 @@
           url: https://console.filebase.com/
           logo: assets/images/logos/filebase.png
           description: filebase官网，WEB3.0存储站点
+        - title: ETH
+          url: https://ethereum.org/
+          logo: assets/images/logos/eth.png
+          description: 以太坊官网，加密货币
         
 
     - term: 技术博客

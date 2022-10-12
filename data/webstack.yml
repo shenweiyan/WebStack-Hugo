@@ -114,6 +114,10 @@
           logo: assets/images/logos/douyin.jfif
           url: https://www.douyin.com/
           description: 抖音网页版
+        - title: 400影视
+          logo: assets/images/logos/video.png
+          url: https://400mov.com/
+          description: 400影视，无广告（内含福利）
       
     - term: 资源下载
       links:

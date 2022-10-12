@@ -151,7 +151,11 @@
           url: https://www.runoob.com/
           logo: assets/images/logos/cainiao.jfif
           description: 菜鸟教程
-      
+        - title: 卡饭论坛
+          url: ttps://bbs.kafan.cn/
+          logo: assets/images/logos/kafan.jfif
+          description: 卡饭论坛，病毒技术论坛      
+
     - term: WEB3.0
       links:
         - title: IPFS

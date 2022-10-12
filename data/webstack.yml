@@ -143,6 +143,14 @@
           url: https://bbs.hh010.com/
           logo: assets/images/logos/52pojie.jfif
           description: 吾爱破解论坛，破解软件，逆向工程
+        - title: Stack Overflow
+          url: https://stackoverflow.com/
+          logo: assets/images/logos/StackOverflow.png
+          description: 解决bug技术社区
+        - title: 菜鸟教程
+          url: https://www.runoob.com/
+          logo: assets/images/logos/cainiao.jfif
+          description: 菜鸟教程
       
     - term: WEB3.0
       links:

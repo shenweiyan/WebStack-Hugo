@@ -57,6 +57,10 @@
       logo: assets/images/logos/google.png
       url: https://www.google.com/adsense/
       description: Google 广告服务
+    - title: 宜家在线设计
+      logo: assets/images/logos/ikea.png
+      url: https://ikea.cn/cn/zh/planners/
+      description: 宜家在线设计工具
     
 
 - taxonomy: 新闻资讯

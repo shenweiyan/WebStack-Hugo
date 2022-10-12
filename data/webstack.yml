@@ -76,6 +76,14 @@
           logo: assets/images/logos/xinlang.webp
           url: https://www.sina.com.cn/
           description: 新浪新闻
+        - title: 人民日报
+          logo: assets/images/logos/renming.jfif
+          url: http://www.people.com.cn/
+          description: 新浪新闻
+        - title: 宁波日报
+          logo: assets/images/logos/ningbonews.png
+          url: http://daily.cnnb.com.cn/
+          description: 宁波日报电子报刊
 
       
     - term: 国外新闻

@@ -46,6 +46,7 @@ jobs:
 
       - name: test
         run: |
+          tree
           cd public && tree
 
       - name: Deploy Web

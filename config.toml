@@ -12,8 +12,8 @@ publishDir = "docs"
     author        = "jobcher"
     description   = "jobcher.com 网址导航"
     siteurl       = "./"
-    about         = "https://shumlab.com/cookbook/webstack-hugo"   # 左侧导航栏的"关于导航"页面(./about)
-    repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
+    about         = "https://www.jobcher.com/about"   # 左侧导航栏的"关于导航"页面(./about)
+    repository    = "https://github.com/jobcher"  
     enablePreLoad = true		    		           # 网站完全打开前预加载动画
     textPreLoad   = "jobcher.com 网址导航" 		           # 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = false                                          # 默认展开左侧边导航栏
@@ -37,4 +37,4 @@ publishDir = "docs"
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：shumlab@foxmail.com <br/>&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | [Bio IT 爱好者](https://www.bioitee.com/) | [粤ICP备16023717号](http://beian.miit.gov.cn/)<br/>'
+    copyright = 'copy; 2021 - {year} By [jobcher](https://www.jobcher.com)'

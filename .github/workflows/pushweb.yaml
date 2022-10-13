@@ -47,7 +47,7 @@ jobs:
       - name: test
         run: |
           tree
-          cd public && tree
+          cd docs && tree
 
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
@@ -55,5 +55,5 @@ jobs:
             PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
             EXTERNAL_REPOSITORY: jobcher/searchweb
             PUBLISH_BRANCH: main
-            PUBLISH_DIR: ./public
+            PUBLISH_DIR: ./docs
             commit_message: ${{ github.event.head_commit.message }}

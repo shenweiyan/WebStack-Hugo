@@ -61,7 +61,10 @@
       logo: assets/images/logos/ikea.png
       url: https://www.ikea.cn/cn/zh/planners/
       description: 宜家在线设计工具
-    
+    - title: 慢慢买（购物比价）
+      logo: assets/images/logos/taobao.png
+      url: http://tool.manmanbuy.com/HistoryLowest.aspx
+      description: 查商品历史价格走势。
 
 - taxonomy: 新闻资讯
   icon: linecons-doc

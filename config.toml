@@ -22,7 +22,7 @@ publishDir = "docs"
     baiduhmid     = 'efccc04cb44fc49faddac5876180b369'             # 百度统计 hm.src 的 ID
 
 [params.qweather]
-    key = "88b8d8f6c2764c25bdd6a61b50b18723"
+    key = "085791e805a24491b43b06cf58ab31e7"
 
 [params.images]
     favicon           = "assets/images/logos/jobcher.png"

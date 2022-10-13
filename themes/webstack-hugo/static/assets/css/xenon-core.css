@@ -1189,7 +1189,9 @@ body {
 }
 
 .sidebar-menu.fixed .sidebar-menu-inner {
-    position: fixed;
+    /*固定左栏 By shenweiyan*/
+    /*position: fixed;*/
+    position: fixed !important;
     left: 0;
     top: 0;
     bottom: 0;
@@ -2222,8 +2224,12 @@ footer.main-footer:after {
 }
 
 footer.main-footer .footer-text {
-    float: left
+    text-align: center;
 }
+footer.main-footer .footer-text a {
+    color: #007bff ;
+}
+
 
 footer.main-footer .go-up {
     float: right;
@@ -2442,7 +2448,8 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
     border: 1px solid #ddd;
     border: 0;
     padding: 0 10px;
-    width: 170px;
+    //width: 170px;
+    width: 100px !important;
     padding-right: 30px;
     font-size: 12px;
     z-index: 1;

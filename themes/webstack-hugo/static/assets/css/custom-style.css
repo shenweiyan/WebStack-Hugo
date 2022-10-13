@@ -1,0 +1,78 @@
+.search-hot-text{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 5px 0px #cccccc94;
+  overflow: hidden;
+}
+.search-hot-text ul{
+	margin: 0;
+	padding: 5px 0;
+}
+.search-hot-text ul li{
+  border-top: 1px solid #f2f2f2;
+  line-height: 30px;
+  font-size: 14px;
+  padding: 0px 25px;
+  color: #777;
+  cursor: pointer;
+}
+.search-hot-text ul li.current{
+  background: #f1f1f1;
+  color: #2196f3;
+}
+.search-hot-text ul li:hover{
+  background: #f1f1f1;
+  color: #2196f3;
+  cursor: pointer;
+}
+.search-hot-text ul li span{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    background: #e5e5e5;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #999;
+}
+
+footer.main-footer .footer-text {
+    text-align: center;
+}
+footer.main-footer .footer-text a {
+    color: #007bff;
+}
+footer.main-footer .footer-text a:hover {
+    color: red;
+}
+
+/* About 页面 */
+.panel .panel-body a {color: #007bff;}
+.panel .panel-body a:hover {color: #979898;}
+
+/* 网格背景 */
+.io-grey-mode .page-container .grid-bg {
+    background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0); 
+    background-size: 15px 15px;
+    background-color: #d8d8d8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

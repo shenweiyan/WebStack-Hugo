@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#f9f9f9">
+    <title>{{ .Site.Title }}</title>
+    <link rel="shortcut icon" href="{{ $.Site.Params.images.favicon }}">
+    <meta name="keywords" content="{{ .Site.Title }}">
+    <meta name="baidu-site-verification" content="code-ERzo5lqNbW" />
+    <meta name="sogou_site_verification" content="c5kms0qkyL"/>
+    <meta name="360-site-verification" content="fcc13eac55051e381be8a06453359bc1" />
+    <link rel='stylesheet' id='wp-block-library-css' href='{{ $.Site.Params.siteurl }}/assets/css/block-library.min-5.6.2.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='iconfont-css' href='{{ $.Site.Params.siteurl }}/assets/css/iconfont-3.03029.1.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='bootstrap-css' href='{{ $.Site.Params.siteurl }}/assets/css/bootstrap.min-4.3.1.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='lightbox-css' href='{{ $.Site.Params.siteurl }}/assets/css/fancybox.min.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='style-css' href='{{ $.Site.Params.siteurl }}/assets/css/style.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='style-css' href='{{ $.Site.Params.siteurl }}/assets/css/custom-style.css' type='text/css' media='all'>
+    <link rel="stylesheet" id="fortawesome-css" href="{{ $.Site.Params.siteurl }}/assets/fontawesome-free-5.15.4-web/css/all.min.css" type="text/css">
+    <script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/jquery.min-3.2.1.js' id='jquery-js'></script>
+    <script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/content-search.js' id='content-search-js'></script>
+    <!-- 百度统计 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?{{ $.Site.Params.baiduhmid }}";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!-- end 百度统计 -->   
+</head>

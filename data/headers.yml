@@ -4,13 +4,5 @@
 
 - item: 作者
   icon: fa fa-book
-  link: https://www.yuque.com/shenweiyan
+  link: https://www.jobcher.com/
 
-- item: 配置
-  icon: fa fa-cog
-  link: ""
-  list:
-    - name: 源码
-      url: "#"
-    - name: 图标
-      url: "#"

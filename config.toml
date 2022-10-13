@@ -28,10 +28,10 @@ publishDir = "docs"
     favicon           = "assets/images/jobcher.png"
     searchImageL      = "assets/images/dna-bg.jpg"		#搜索部分浅色背景图
     searchImageD      = "assets/images/dna-bg.jpg"		#搜索部分深色背景图
-    logoExpandLight   = "assets/images/bt8-expand-light.png"
-    logoExpandDark    = "assets/images/bt8-expand-dark.png"
-    logoCollapseLight = "assets/images/bt.png"
-    logoCollapseDark  = "assets/images/bt.png"
+    logoExpandLight   = "assets/images/logo@2x.png"
+    logoExpandDark    = "assets/images/logo@2x.png"
+    logoCollapseLight = "assets/images/jobcher.png"
+    logoCollapseDark  = "assets/images/jobcher.png"
     
 [markup.goldmark.renderer]
     unsafe = true

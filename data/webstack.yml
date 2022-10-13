@@ -1,7 +1,7 @@
 ---
 
 - taxonomy: 个人网站
-  icon: linecons-star
+  icon: far fa-star
   links: 
     - title: 网址导航
       logo: jobcher.png
@@ -23,7 +23,7 @@
     
 
 - taxonomy: 常用网站
-  icon: linecons-lightbulb
+  icon: fas fa-flask fa-lg
   links: 
     - title: RSS阅读
       logo: RSS.jfif
@@ -68,7 +68,7 @@
 
 
 - taxonomy: 新闻资讯
-  icon: linecons-doc
+  icon: fas fa-pencil-alt fa-lg
   list: 
     - term: 国内新闻
       links:
@@ -110,7 +110,7 @@
           description: 美国之音VOA新闻站
 
 - taxonomy: 各类资源
-  icon: linecons-thumbs-up
+  icon: fas fa-film fa-lg
   list: 
     - term: 在线播放
       links:
@@ -139,7 +139,7 @@
           description: MSDN，windows镜像下载
 
 - taxonomy: 技术工具
-  icon: linecons-diamond
+  icon: far fa-folder-open fa-lg
   list: 
     - term: 技术网站
       links:

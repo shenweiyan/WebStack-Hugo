@@ -4,19 +4,19 @@
   icon: linecons-star
   links: 
     - title: 网址导航
-      logo: assets/images/logos/jobcher.png
+      logo: jobcher.png
       url: https://nav.jobcher.com/
       description: 个人网址导航，随缘更新
     - title: jellyfin
-      logo: assets/images/logos/jellyfin.jfif
+      logo: jellyfin.jfif
       url: https://video.jobcher.com/
       description: 家庭视频资源，如要开通请联系我
     - title: 打工人日志
-      logo: assets/images/logos/jobcher.png
+      logo: jobcher.png
       url: https://www.jobcher.com/
       description: 个人博客分享，记录打工
     - title: NAS 群晖
-      logo: assets/images/logos/dsm.png
+      logo: dsm.png
       url: https://nas.jobcher.com/
       description: 个人NAS 群晖
 
@@ -26,43 +26,43 @@
   icon: linecons-lightbulb
   links: 
     - title: RSS阅读
-      logo: assets/images/logos/RSS.jfif
+      logo: RSS.jfif
       url: https://www.readdig.com/
       description: RSS阅读订阅
     - title: V2EX
-      logo: assets/images/logos/v2ex.png
+      logo: v2ex.png
       url: https://www.readdig.com/
       description: V2EX开发者论坛
     - title: Cloudflare
-      logo: assets/images/logos/cloudflare.png
+      logo: cloudflare.png
       url: https://www.cloudflare.com/
       description: Cloudflare CDN加速、域名解析
     - title: Github
-      logo: assets/images/logos/github.png
+      logo: github.png
       url: https://www.cloudflare.com/
       description: Github全球最大同性交流平台，开源社区
     - title: 腾讯云
-      logo: assets/images/logos/腾讯云.jpg
+      logo: 腾讯云.jpg
       url: https://cloud.tencent.com/
       description: 产业智变，云启未来。
     - title: youtube
-      logo: assets/images/logos/youtube.png
+      logo: youtube.png
       url: https://www.youtube.com/
       description: youtube视频网站
     - title: Google
-      logo: assets/images/logos/google.png
+      logo: google.png
       url: https://www.google.com/
       description: Google 搜索引擎
     - title: Ads
-      logo: assets/images/logos/google.png
+      logo: google.png
       url: https://www.google.com/adsense/
       description: Google 广告服务
     - title: 宜家在线设计
-      logo: assets/images/logos/ikea.png
+      logo: ikea.png
       url: https://www.ikea.cn/cn/zh/planners/
       description: 宜家在线设计工具
     - title: 慢慢买（购物比价）
-      logo: assets/images/logos/taobao.png
+      logo: taobao.png
       url: http://tool.manmanbuy.com/HistoryLowest.aspx
       description: 查商品历史价格走势。
 
@@ -73,23 +73,23 @@
     - term: 国内新闻
       links:
         - title: 新华社
-          logo: assets/images/logos/xinhuanew.png
+          logo: xinhuanew.png
           url: http://www.xinhuanet.com/
           description: 新华社，共产党党媒
         - title: 澎湃新闻
-          logo: assets/images/logos/penpai.png
+          logo: penpai.png
           url: https://www.thepaper.cn/
           description: 澎湃新闻
         - title: 新浪新闻
-          logo: assets/images/logos/xinlang.webp
+          logo: xinlang.webp
           url: https://www.sina.com.cn/
           description: 新浪新闻
         - title: 人民日报
-          logo: assets/images/logos/renming.jfif
+          logo: renming.jfif
           url: http://www.people.com.cn/
           description: 人民日报，党报
         - title: 宁波日报
-          logo: assets/images/logos/ningbonews.png
+          logo: ningbonews.png
           url: http://daily.cnnb.com.cn/
           description: 宁波日报电子报刊
 
@@ -97,15 +97,15 @@
     - term: 国外新闻
       links:
         - title: BBC中文
-          logo: assets/images/logos/BBC_CN.png
+          logo: BBC_CN.png
           url: https://www.bbc.com/zhongwen/simp
           description: BBC中文新闻站
         - title: 华尔街日报
-          logo: assets/images/logos/wsj.png
+          logo: wsj.png
           url: https://cn.wsj.com/
           description: 华尔街日报中文版
         - title: VOA
-          logo: assets/images/logos/VOA.jfif
+          logo: VOA.jfif
           url: https://www.voachinese.com/
           description: 美国之音VOA新闻站
 
@@ -115,26 +115,26 @@
     - term: 在线播放
       links:
         - title: 厂长影视
-          logo: assets/images/logos/video.png
+          logo: video.png
           url: https://www.czspp.com/
           description: 厂长影视，电影资源在线播放
         - title: 抖音网页版
-          logo: assets/images/logos/douyin.jfif
+          logo: douyin.jfif
           url: https://www.douyin.com/
           description: 抖音网页版
         - title: 400影视
-          logo: assets/images/logos/video.png
+          logo: video.png
           url: https://400mov.com/
           description: 400影视，无广告（内含福利）
       
     - term: 资源下载
       links:
         - title: MP4电影下载
-          logo: assets/images/logos/video.png
+          logo: video.png
           url: https://www.domp4.cc/
           description: MP4电影下载，磁力链接
         - title: MSDN
-          logo: assets/images/logos/msdn.png
+          logo: msdn.png
           url: https://msdn.itellyou.cn/
           description: MSDN，windows镜像下载
 
@@ -145,42 +145,42 @@
       links:
         - title: 恩山无线论坛
           url: https://www.right.com.cn/forum/
-          logo: assets/images/logos/enshan.jfif
+          logo: enshan.jfif
           description: 恩山无线论坛，路由器网络技术论坛
         - title: 鸿鹄论坛
           url: https://bbs.hh010.com/
-          logo: assets/images/logos/honghu.png
+          logo: honghu.png
           description: 鸿鹄论坛，计算机类考证
         - title: 吾爱破解论坛
           url: https://bbs.hh010.com/
-          logo: assets/images/logos/52pojie.jfif
+          logo: 52pojie.jfif
           description: 吾爱破解论坛，破解软件，逆向工程
         - title: Stack Overflow
           url: https://stackoverflow.com/
-          logo: assets/images/logos/StackOverflow.png
+          logo: StackOverflow.png
           description: 解决bug技术社区
         - title: 菜鸟教程
           url: https://www.runoob.com/
-          logo: assets/images/logos/cainiao.jfif
+          logo: cainiao.jfif
           description: 菜鸟教程
         - title: 卡饭论坛
           url: ttps://bbs.kafan.cn/
-          logo: assets/images/logos/kafan.jfif
+          logo: kafan.jfif
           description: 卡饭论坛，病毒技术论坛      
 
     - term: WEB3.0
       links:
         - title: IPFS
           url: https://ipfs.tech/
-          logo: assets/images/logos/IPFS.png
+          logo: IPFS.png
           description: IPFS官网，WEB3.0网站
         - title: filebase
           url: https://console.filebase.com/
-          logo: assets/images/logos/filebase.png
+          logo: filebase.png
           description: filebase官网，WEB3.0存储站点
         - title: ETH
           url: https://ethereum.org/
-          logo: assets/images/logos/eth.png
+          logo: eth.png
           description: 以太坊官网，加密货币
         
 
@@ -188,18 +188,18 @@
       links:
         - title: Bboysoul's Blog
           url: https://www.bboy.app/
-          logo: assets/images/logos/Bboysoul.png
+          logo: Bboysoul.png
           description: Bboysoul's Blog
         - title: 阮一峰的个人网站
           url: https://www.ruanyifeng.com/
-          logo: assets/images/logos/ruanyifeng.ico
+          logo: ruanyifeng.ico
           description: 阮一峰的个人网站
 
     - term: 在线工具
       links:
         - title: bitwarden
           url: https://bitwarden.com/
-          logo: assets/images/logos/bitwarden.jfif
+          logo: bitwarden.jfif
           description: 密码库
         
 

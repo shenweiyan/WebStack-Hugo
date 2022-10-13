@@ -1,6 +1,6 @@
 baseURL = "https://nav.bioitee.com"
 languageCode = "zh-CN"
-title = "WebStack-Hugo 网址导航"
+title = "jobcher.com 网址导航"
 theme = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower = true
@@ -9,13 +9,13 @@ publishDir = "docs"
 
 
 [params]
-    author        = "shenweiyan"
-    description   = "Webstack-Hugo 网址导航 | Hugo 主题 BY Bio IT 爱好者"
+    author        = "jobcher"
+    description   = "jobcher.com 网址导航"
     siteurl       = "./"
     about         = "https://shumlab.com/cookbook/webstack-hugo"   # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
     enablePreLoad = true		    		           # 网站完全打开前预加载动画
-    textPreLoad   = "Hugo 网址导航主题" 		           # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    textPreLoad   = "jobcher.com 网址导航" 		           # 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = false                                          # 默认展开左侧边导航栏
     logosPath     = "assets/images/logos"			   # 网站每个导航地址logo存放地址
     defaultLogo   = "assets/images/logos/default.webp"             # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功

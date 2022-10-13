@@ -105,7 +105,7 @@
           url: https://www.voachinese.com/
           description: 美国之音VOA新闻站
 
-- taxonomy: 影视资源
+- taxonomy: 各类资源
   icon: linecons-thumbs-up
   list: 
     - term: 在线播放
@@ -129,6 +129,10 @@
           logo: assets/images/logos/video.png
           url: https://www.domp4.cc/
           description: MP4电影下载，磁力链接
+        - title: MSDN
+          logo: assets/images/logos/msdn.png
+          url: https://msdn.itellyou.cn/
+          description: MSDN，windows镜像下载
 
 - taxonomy: 技术工具
   icon: linecons-diamond

@@ -26,8 +26,8 @@ publishDir = "docs"
 
 [params.images]
     favicon           = "assets/images/favicon.png"
-    searchImageL      = "assets/images/dna-bg.jpg"		#搜索部分浅色背景图
-    searchImageD      = "assets/images/dna-bg.jpg"		#搜索部分深色背景图
+    searchImageL      = "assets/images/bg-dna.jpg"		#搜索部分浅色背景图
+    searchImageD      = "assets/images/bg-dna.jpg"		#搜索部分深色背景图
     logoExpandLight   = "assets/images/bt8-expand-light.png"
     logoExpandDark    = "assets/images/bt8-expand-dark.png"
     logoCollapseLight = "assets/images/bt.png"

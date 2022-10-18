@@ -553,7 +553,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big .s-type-list{position:relative!important;display:inline-table;overflow:auto;white-space:nowrap;text-align:center;position:inherit;top:inherit;padding:inherit;width:none;background:none!important;border-radius:inherit;box-shadow:none!important}
 /*shenweiyan,主页搜索搜索框头部字体颜色----------start*/
 /*.header-big:not(.no-bg) .s-type-list{color:#fff}*/
-.header-big:not(.no-bg) .s-type-list{color:#20c997}
+.header-big:not(.no-bg) .s-type-list{color:#ffffff}
 /*shenweiyan,主页搜索搜索框头部字体颜色----------end*/
 .s-type:hover .s-type-list.big{display:inline-table}
 .header-big .s-type-list .anchor{background:#888;border-radius:100px;width:10px;height:4px;bottom:5px;-webkit-transition:.25s;transition:.25s}
@@ -593,7 +593,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big .canvas-bg{position:absolute;top:0;width:100%;height:100%;border-width:0}
 //shenweiyan, 主页搜索搜索框底部字体颜色----------start
 //.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#fff!important} 
-.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#6c757d!important}
+.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
 //shenweiyan, 主页搜索搜索框底部字体颜色----------end
 .header-big.no-bg #search-text{color:#fff;border:none;background-color:rgba(0,0,0,0.2)!important}
 .header-big.no-bg .search-type input:checked+label:before{border-color:rgba(0,0,0,0.2) transparent transparent}

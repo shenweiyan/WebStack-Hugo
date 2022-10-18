@@ -321,8 +321,8 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .btn-dark:not(:disabled):not(.disabled):active:focus,.btn-dark:not(:disabled):not(.disabled).active:focus,.show>.btn-dark.dropdown-toggle:focus{box-shadow:none}
 .btn-outline-danger{color:#f1404b;border-color:#f1404b}
 .btn-outline-danger:hover{color:#fff;border-color:#f1404b;background-color:#f1404b}
-.text-muted a{color:#6c757d}
-.text-muted a:hover{color:#5c656d}
+.text-muted a{color:#14171b}
+.text-muted a:hover{color:#000000}
 .custom-switch .custom-control-label::before{height:1.125rem;width:2rem;border-radius:.57rem;background-color:transparent}
 .custom-switch .custom-control-label::after{width:calc(1.125rem - 4px);height:calc(1.125rem - 4px)}
 .custom-control-input:not(:disabled):active~.custom-control-label::before{background-color:rgba(241,64,76,.15);border-color:rgba(241,64,76,.15)}

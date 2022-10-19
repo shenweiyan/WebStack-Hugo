@@ -130,7 +130,14 @@
           logo: video.png
           url: https://400mov.com/
           description: 400影视，无广告（内含福利）
-      
+
+    - term: 游戏资源
+      links:
+        - title: humblebundle
+          logo: humblebundle.png
+          url: https://www.humblebundle.com/
+          description: 游戏慈善包网站
+
     - term: 资源下载
       links:
         - title: MP4电影下载
@@ -210,5 +217,10 @@
           url: https://bitwarden.com/
           logo: bitwarden.jfif
           description: 密码库
-        
+        - title: ChinaStockWebService
+          url: http://www.webxml.com.cn/WebServices/ChinaStockWebService.asmx
+          logo: awesome_design_systems.png
+          description: 中国股票行情数据 WEB 服务
+
+
 

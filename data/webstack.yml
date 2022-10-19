@@ -137,6 +137,10 @@
           logo: humblebundle.png
           url: https://www.humblebundle.com/
           description: 游戏慈善包网站
+        - title: Steam社区API
+          logo: steam.jfif
+          url: https://steamcommunity.com/dev
+          description: Steam社区API
 
     - term: 资源下载
       links:
@@ -155,6 +159,10 @@
         - title: pinterest
           logo: pinterest.png
           url: https://www.pinterest.com/
+          description: 图片社交平台
+        - title: instagram
+          logo: instagram.jfif
+          url: https://www.instagram.com/
           description: 图片社交平台
 
 

@@ -247,6 +247,10 @@
           url: https://www.ruanyifeng.com/
           logo: ruanyifeng.ico
           description: 阮一峰的个人网站
+        - title: 廖雪峰的官方网站
+          url: https://www.liaoxuefeng.com/
+          logo: 书栈网.jpg
+          description: 廖雪峰的官方网站
 
     - term: 在线工具
       links:

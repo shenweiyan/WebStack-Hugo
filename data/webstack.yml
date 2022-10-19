@@ -96,7 +96,10 @@
           logo: ningbonews.png
           url: http://daily.cnnb.com.cn/
           description: 宁波日报电子报刊
-
+        - title: 宁波图书馆
+          logo: nblib.png
+          url: https://www.nblib.cn/
+          description: 宁波图书馆
       
     - term: 国外新闻
       links:

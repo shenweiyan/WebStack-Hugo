@@ -130,6 +130,19 @@
           logo: video.png
           url: https://400mov.com/
           description: 400影视，无广告（内含福利）
+        - title: 图片查动漫
+          logo: 哔哩哔哩.png
+          url: https://trace.moe/
+          description: 日本动画图片识别
+        - title: uump4电影
+          logo: uump4.png
+          url: https://www.uump4.net/
+          description: uump4电影下载
+        - title: 末日动漫资源库
+          logo: 哔哩哔哩.png
+          url: https://share.acgnx.se/
+          description: 末日动漫资源库
+
 
     - term: 游戏资源
       links:
@@ -141,6 +154,10 @@
           logo: steam.jfif
           url: https://steamcommunity.com/dev
           description: Steam社区API
+        - title: appstorrent
+          logo: appstorrent.jfif
+          url: https://appstorrent.ru/
+          description: 俄语破解MacOS软件下载
 
     - term: 资源下载
       links:

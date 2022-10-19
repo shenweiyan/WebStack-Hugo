@@ -141,6 +141,11 @@
           logo: msdn.png
           url: https://msdn.itellyou.cn/
           description: MSDN，windows镜像下载
+        - title: 豆瓣读书
+          logo: douban.jfif
+          url: https://book.douban.com/
+          description: 豆瓣读书
+
 
 - taxonomy: 技术工具
   icon: far fa-folder-open fa-lg

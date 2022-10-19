@@ -31,7 +31,7 @@
       description: RSS阅读订阅
     - title: V2EX
       logo: v2ex.png
-      url: https://www.readdig.com/
+      url: https://www.v2ex.com/
       description: V2EX开发者论坛
     - title: Cloudflare
       logo: cloudflare.png
@@ -39,7 +39,7 @@
       description: Cloudflare CDN加速、域名解析
     - title: Github
       logo: github.png
-      url: https://www.cloudflare.com/
+      url: https://www.github.com/
       description: Github全球最大同性交流平台，开源社区
     - title: dockerhub
       logo: docker.png

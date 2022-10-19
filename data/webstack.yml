@@ -164,6 +164,10 @@
           logo: instagram.jfif
           url: https://www.instagram.com/
           description: 图片社交平台
+        - title: pexels
+          logo: pexels.png
+          url: https://www.pexels.com/zh-cn/
+          description: 免费图片下载（可商用）
 
 
 
@@ -234,6 +238,11 @@
           url: http://www.webxml.com.cn/WebServices/ChinaStockWebService.asmx
           logo: awesome_design_systems.png
           description: 中国股票行情数据 WEB 服务
+        - title: 注册会计师全国统一考试练习试卷
+          url: http://cpademo.cicpa.org.cn/
+          logo: flinto.png
+          description: 注册会计师全国统一考试练习试卷
+
 
 
 

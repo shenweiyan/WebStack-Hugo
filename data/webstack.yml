@@ -69,6 +69,10 @@
       logo: taobao.png
       url: http://tool.manmanbuy.com/HistoryLowest.aspx
       description: 查商品历史价格走势。
+    - title: 职友集
+      logo: zhiyouji.png
+      url: https://www.jobui.com/
+      description: 求职信息查询
 
 
 - taxonomy: 新闻资讯

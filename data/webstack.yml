@@ -264,6 +264,10 @@
           url: https://www.liaoxuefeng.com/
           logo: 书栈网.jpg
           description: 廖雪峰的官方网站
+        - title: 美团技术团队
+          url: https://tech.meituan.com/
+          logo: meituan.png
+          description: 美团技术团队
 
     - term: 在线工具
       links:

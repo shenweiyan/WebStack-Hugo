@@ -24,55 +24,60 @@
 
 - taxonomy: 常用网站
   icon: fas fa-flask fa-lg
-  links: 
-    - title: RSS阅读
-      logo: RSS.jfif
-      url: https://www.readdig.com/
-      description: RSS阅读订阅
-    - title: V2EX
-      logo: v2ex.png
-      url: https://www.v2ex.com/
-      description: V2EX开发者论坛
-    - title: Cloudflare
-      logo: cloudflare.png
-      url: https://www.cloudflare.com/
-      description: Cloudflare CDN加速、域名解析
-    - title: Github
-      logo: github.png
-      url: https://www.github.com/
-      description: Github全球最大同性交流平台，开源社区
-    - title: dockerhub
-      logo: docker.png
-      url: https://hub.docker.com/
-      description: docker镜像仓库
-    - title: 腾讯云
-      logo: 腾讯云.jpg
-      url: https://cloud.tencent.com/
-      description: 产业智变，云启未来。
-    - title: youtube
-      logo: youtube.png
-      url: https://www.youtube.com/
-      description: youtube视频网站
-    - title: Google
-      logo: google.png
-      url: https://www.google.com/
-      description: Google 搜索引擎
-    - title: Ads
-      logo: google.png
-      url: https://www.google.com/adsense/
-      description: Google 广告服务
-    - title: 宜家在线设计
-      logo: ikea.png
-      url: https://www.ikea.cn/cn/zh/planners/
-      description: 宜家在线设计工具
-    - title: 慢慢买（购物比价）
-      logo: taobao.png
-      url: http://tool.manmanbuy.com/HistoryLowest.aspx
-      description: 查商品历史价格走势。
-    - title: 职友集
-      logo: zhiyouji.png
-      url: https://www.jobui.com/
-      description: 求职信息查询
+  list: 
+    - term: 娱乐
+      links:
+        - title: RSS阅读
+          logo: RSS.jfif
+          url: https://www.readdig.com/
+          description: RSS阅读订阅
+        - title: V2EX
+          logo: v2ex.png
+          url: https://www.v2ex.com/
+          description: V2EX开发者论坛
+        - title: youtube
+          logo: youtube.png
+          url: https://www.youtube.com/
+          description: youtube视频网站
+        - title: Google
+          logo: google.png
+          url: https://www.google.com/
+          description: Google 搜索引擎
+        - title: Ads
+          logo: google.png
+          url: https://www.google.com/adsense/
+          description: Google 广告服务
+        - title: 宜家在线设计
+          logo: ikea.png
+          url: https://www.ikea.cn/cn/zh/planners/
+          description: 宜家在线设计工具
+        - title: 慢慢买（购物比价）
+          logo: taobao.png
+          url: http://tool.manmanbuy.com/HistoryLowest.aspx
+          description: 查商品历史价格走势。
+
+    - term: 工作
+      links:
+        - title: Cloudflare
+          logo: cloudflare.png
+          url: https://www.cloudflare.com/
+          description: Cloudflare CDN加速、域名解析
+        - title: Github
+          logo: github.png
+          url: https://www.github.com/
+          description: Github全球最大同性交流平台，开源社区
+        - title: dockerhub
+          logo: docker.png
+          url: https://hub.docker.com/
+          description: docker镜像仓库
+        - title: 腾讯云
+          logo: 腾讯云.jpg
+          url: https://cloud.tencent.com/
+          description: 产业智变，云启未来。
+        - title: 职友集
+          logo: zhiyouji.png
+          url: https://www.jobui.com/
+          description: 求职信息查询
 
 
 - taxonomy: 新闻资讯

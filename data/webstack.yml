@@ -82,6 +82,10 @@
           logo: zhiyouji.png
           url: https://www.jobui.com/
           description: 求职信息查询
+        - title: JuiceFS
+          logo: juice.svg
+          url: https://juicefs.com/
+          description: 兼容 POSIX、HDFS 和 S3 协议的分布式文件系统
 
 
 - taxonomy: 新闻资讯

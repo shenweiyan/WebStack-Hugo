@@ -62,6 +62,10 @@
           logo: cloudflare.png
           url: https://www.cloudflare.com/
           description: Cloudflare CDN加速、域名解析
+        - title: Oracle-Cloud
+          logo: oracle.png
+          url: https://cloud.oracle.com/
+          description: Oracle-Cloud云
         - title: Github
           logo: github.png
           url: https://www.github.com/

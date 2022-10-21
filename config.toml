@@ -37,4 +37,4 @@ publishDir = "docs"
     unsafe = true
 
 [params.footer]
-    copyright = 'copy; 2021 - {year} By [jobcher](https://www.jobcher.com)'
+    copyright = 'copy© 2019 - {year} By [jobcher](https://www.jobcher.com)'

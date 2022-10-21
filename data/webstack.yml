@@ -91,6 +91,11 @@
           logo: drawio.png
           url: https://draw.io/
           description: 软件工程画图工具
+        - title: ping.pe
+          logo: default.png
+          url: https://ping.pe/
+          description: 获取公网IP在全球的服务状态
+
 
 - taxonomy: 新闻资讯
   icon: fas fa-pencil-alt fa-lg

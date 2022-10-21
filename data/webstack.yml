@@ -55,6 +55,7 @@
           logo: taobao.png
           url: http://tool.manmanbuy.com/HistoryLowest.aspx
           description: 查商品历史价格走势。
+  
 
     - term: 工作
       links:
@@ -86,7 +87,10 @@
           logo: juice.svg
           url: https://juicefs.com/
           description: 兼容 POSIX、HDFS 和 S3 协议的分布式文件系统
-
+        - title: draw.io
+          logo: drawio.png
+          url: https://draw.io/
+          description: 软件工程画图工具
 
 - taxonomy: 新闻资讯
   icon: fas fa-pencil-alt fa-lg

@@ -99,6 +99,12 @@
           logo: lecode.png
           url: https://leetcode.cn/
           description: 面试刷题平台
+        - title: python官方在线文档
+          logo: python.jpeg
+          url: https://docs.python.org/zh-cn/3/tutorial/index.html
+          description: python官方在线文档
+
+
 
 
 - taxonomy: 新闻资讯

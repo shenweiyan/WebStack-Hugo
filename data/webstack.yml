@@ -95,6 +95,10 @@
           logo: default.png
           url: https://ping.pe/
           description: 获取公网IP在全球的服务状态
+        - title: leetcode
+          logo: lecode.png
+          url: https://leetcode.cn/
+          description: 面试刷题平台
 
 
 - taxonomy: 新闻资讯

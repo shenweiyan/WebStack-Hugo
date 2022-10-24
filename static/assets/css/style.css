@@ -63,7 +63,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .sidebar-item ul{display:none;background:rgba(0,0,0,.1)}
 .sidebar-item.sidebar-show ul{display:block}
 .sidebar-item ul li{display:block}
-.sidebar-menu-inner ul li ul li a{margin-left:36px} 
+.sidebar-menu-inner ul li ul li a{margin-left:27px} 
 .sidebar-more{float:right;margin-right:24px;line-height:50px!important;transition:transform .3s}
 .sidebar-item .label-Primary{float:right;margin-right:24px}
 a>i.sidebar-more{transform:scale(.8)}

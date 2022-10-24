@@ -55,7 +55,7 @@
           logo: taobao.png
           url: http://tool.manmanbuy.com/HistoryLowest.aspx
           description: 查商品历史价格走势。
-  
+
 
     - term: 工作
       links:
@@ -269,6 +269,10 @@
           url: https://ethereum.org/
           logo: eth.png
           description: 以太坊官网，加密货币
+        - title: brave浏览器
+          logo: brave.png
+          url: https://brave.com/
+          description: brave浏览器原生支持WEB3.0
         
 
     - term: 技术博客

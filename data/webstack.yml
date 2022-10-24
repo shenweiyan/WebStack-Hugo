@@ -19,7 +19,10 @@
       logo: dsm.png
       url: https://nas.jobcher.com/
       description: 个人NAS 群晖
-
+    - title: harbor仓库
+      logo: default.png
+      url: https://hub.jobcher.com/
+      description: 个人镜像仓库
     
 
 - taxonomy: 常用网站
@@ -283,7 +286,10 @@
           logo: brave.png
           url: https://brave.com/
           description: brave浏览器原生支持WEB3.0
-        
+        - title: IPFS公共网关
+          url: https://ipfs.github.io/public-gateway-checker/
+          logo: IPFS.png
+          description: IPFS公共网关在线检测
 
     - term: 技术博客
       links:

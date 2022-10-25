@@ -58,6 +58,10 @@
           logo: taobao.png
           url: http://tool.manmanbuy.com/HistoryLowest.aspx
           description: 查商品历史价格走势。
+        - title: Notion
+          logo: notion.png
+          url: https://www.notion.so/
+          description: 在线笔记、知识库
 
 
     - term: 工作

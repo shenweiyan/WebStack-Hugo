@@ -62,6 +62,10 @@
           logo: notion.png
           url: https://www.notion.so/
           description: 在线笔记、知识库
+        - title: Z-Library
+          logo: zlib.jfif
+          url: https://z-lib.org/
+          description: 全球最大免费电子书下载站        
 
 
     - term: 工作

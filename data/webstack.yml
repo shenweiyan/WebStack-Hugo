@@ -36,7 +36,7 @@
           description: RSS阅读订阅
         - title: V2EX
           logo: v2ex.png
-          url: https://www.v2ex.com/
+          url: https://www.v2ex.com/?r=jobcher
           description: V2EX开发者论坛
         - title: youtube
           logo: youtube.png

@@ -290,6 +290,10 @@
           url: https://obsproject.com/
           logo: obs.jfif
           description: OBS直播推流软件
+        - title: Let's Encrypt
+          url: https://letsencrypt.org/
+          logo: letsencrypt.png
+          description: 免费SSL证书网站
 
     - term: WEB3.0
       links:

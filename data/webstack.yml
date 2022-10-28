@@ -65,7 +65,11 @@
         - title: Z-Library
           logo: zlib.jfif
           url: https://z-lib.org/
-          description: 全球最大免费电子书下载站        
+          description: 全球最大免费电子书下载站 
+        - title: 无线电波资料
+          logo: default.png
+          url: https://www.qsl.net/bg3tt/zl/zlsj.htm
+          description: 业余无线电改造，自建无线电通信        
 
 
     - term: 工作

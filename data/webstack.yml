@@ -336,6 +336,11 @@
           url: https://tech.meituan.com/
           logo: meituan.png
           description: 美团技术团队
+        - title: 唐玥璨的博客
+          url: https://www.tangyuecan.com/
+          logo: default.png
+          description: 唐玥璨 | 博客
+        
 
     - term: 在线工具
       links:

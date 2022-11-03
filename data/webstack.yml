@@ -203,7 +203,10 @@
           logo: 哔哩哔哩.png
           url: https://share.acgnx.se/
           description: 末日动漫资源库
-
+        - title: 4kvm
+          logo: 4kvm.png
+          url: https://www.4kvm.com/
+          description: 4K高清影视播放
 
     - term: 游戏资源
       links:

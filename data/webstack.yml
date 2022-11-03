@@ -103,6 +103,10 @@
           logo: zhiyouji.png
           url: https://www.jobui.com/
           description: 求职信息查询
+        - title: 律大师
+          logo: lvdashi.png
+          url: https://www.lvdashi110.com
+          description: 免费法律咨询
         - title: JuiceFS
           logo: juice.svg
           url: https://juicefs.com/

@@ -222,6 +222,11 @@
           logo: appstorrent.jfif
           url: https://appstorrent.ru/
           description: 俄语破解MacOS软件下载
+        - title: crazy games
+          logo: crazygames.png
+          url: https://www.crazygames.com/
+          description: 网页游戏平台
+
 
     - term: 资源下载
       links:

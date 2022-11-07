@@ -131,7 +131,10 @@
           logo: godaddy.png
           url: https://www.godaddy.com
           description: 域名注册服务商
-
+        - title: 清华镜像站
+          logo: tuna.png
+          url: https://mirrors.tuna.tsinghua.edu.cn/
+          description: 清华大学开源软件镜像站
 
 - taxonomy: 新闻资讯
   icon: fas fa-pencil-alt fa-lg

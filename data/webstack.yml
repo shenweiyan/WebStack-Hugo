@@ -20,7 +20,7 @@
       url: https://nas.jobcher.com/
       description: 个人NAS 群晖
     - title: harbor仓库
-      logo: default.png
+      logo: default.webp
       url: https://hub.jobcher.com/
       description: 个人镜像仓库
     
@@ -67,7 +67,7 @@
           url: https://z-lib.org/
           description: 全球最大免费电子书下载站 
         - title: 无线电波资料
-          logo: default.png
+          logo: default.webp
           url: https://www.qsl.net/bg3tt/zl/zlsj.htm
           description: 业余无线电改造，自建无线电通信        
         - title: 🍊新奇士
@@ -116,7 +116,7 @@
           url: https://draw.io/
           description: 软件工程画图工具
         - title: ping.pe
-          logo: default.png
+          logo: default.webp
           url: https://ping.pe/
           description: 获取公网IP在全球的服务状态
         - title: leetcode
@@ -353,7 +353,7 @@
           description: 美团技术团队
         - title: 唐玥璨的博客
           url: https://www.tangyuecan.com/
-          logo: default.png
+          logo: default.webp
           description: 唐玥璨 | 博客
         
 

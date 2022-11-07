@@ -195,7 +195,7 @@
           url: https://www.douyin.com/
           description: 抖音网页版
         - title: 400影视
-          logo: video.png
+          logo: 电影天堂.png
           url: https://400mov.com/
           description: 400影视，无广告（内含福利）
         - title: 图片查动漫
@@ -265,6 +265,10 @@
           logo: qqdown.jfif
           url: https://pc.qq.com/
           description: 软件下载平台，简单下载
+        - title: 音乐直链搜索
+          logo: music.png
+          url: https://music.liuzhijin.cn/
+          description: 音乐直链搜索
 
 
 

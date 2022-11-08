@@ -135,6 +135,12 @@
           logo: tuna.png
           url: https://mirrors.tuna.tsinghua.edu.cn/
           description: 清华大学开源软件镜像站
+        - title: 全球 OID 参考数据库
+          logo: default.webp
+          url: http://oidref.com/
+          description: 这是为互联网用户发布的完整的世界 OID 数据库
+
+
 
 - taxonomy: 新闻资讯
   icon: fas fa-pencil-alt fa-lg

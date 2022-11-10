@@ -322,6 +322,11 @@
           url: https://letsencrypt.org/
           logo: letsencrypt.png
           description: 免费SSL证书网站
+        - title: 爱自由
+          url: https://safing.io/
+          logo: 20678162.png
+          description: 隐私监管防火墙
+
 
     - term: WEB3.0
       links:

@@ -46,10 +46,6 @@
           logo: google.png
           url: https://www.google.com/
           description: Google 搜索引擎
-        - title: Ads
-          logo: google.png
-          url: https://www.google.com/adsense/
-          description: Google 广告服务
         - title: 宜家在线设计
           logo: ikea.png
           url: https://www.ikea.cn/cn/zh/planners/

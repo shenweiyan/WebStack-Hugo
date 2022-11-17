@@ -70,7 +70,10 @@
           logo: 阿里云盘.png
           url: https://www.synckeys.com/
           description: sync p2p资源共享🍊
-
+        - title: 阿里云免费企业邮箱
+          logo: 阿里云.jpg
+          url: https://common-buy.aliyun.com/?spm=5176.8071678.J_3365434990.1.22a55477TycNB9&commodityCode=alimail&specCode=lx_18482&request=%7B%22ord_time%22:%223:Year%22,%22account_num%22:%225%22%7D#/buy
+          description: 阿里云免费企业邮箱申请
 
 
     - term: 工作

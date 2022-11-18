@@ -138,6 +138,10 @@
           logo: default.webp
           url: http://oidref.com/
           description: 这是为互联网用户发布的完整的世界 OID 数据库
+        - title: MindShow.fun
+          logo: mindshow.png
+          url: https://www.mindshow.fun/
+          description: 自动生成幻灯片    
 
 
 

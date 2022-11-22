@@ -145,7 +145,11 @@
         - title: Conda
           logo: CONDA.png
           url: https://www.anaconda.com/
-          description: 开源跨平台环境管理系统    
+          description: 开源跨平台环境管理系统   
+        - title: rustdesk
+          logo: rushdesk.png
+          url: https://rustdesk.com/
+          description: 开源虚拟与远程桌面基础架构  
 
 
 

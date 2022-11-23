@@ -150,6 +150,10 @@
           logo: rushdesk.png
           url: https://rustdesk.com/
           description: 开源虚拟与远程桌面基础架构  
+        - title: fir.im
+          logo: default.webp
+          url: https://www.betaqr.com/
+          description: APP发布测试平台
 
 
 

@@ -23,7 +23,10 @@
       logo: default.webp
       url: https://hub.jobcher.com/
       description: 个人镜像仓库
-    
+    - title: 私人聊天室
+      logo: jobcher.png
+      url: https://chat.jobcher.com/
+      description: 私人聊天室、支持移动端、PC端、网页端
 
 - taxonomy: 常用网站
   icon: fas fa-flask fa-lg

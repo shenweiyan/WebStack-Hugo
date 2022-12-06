@@ -7,7 +7,6 @@ disablePathToLower = true
 hasCJKLanguage = true
 publishDir = "docs"
 
-
 [params]
     author        = "jobcher"
     description   = "jobcher.com 网址导航"

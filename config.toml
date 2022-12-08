@@ -25,8 +25,8 @@ publishDir = "docs"
 
 [params.images]
     favicon           = "assets/images/logos/jobcher.png"
-    searchImageL      = "assets/images/video.webm"		#搜索部分浅色背景图
-    searchImageD      = "assets/images/video.webm"		#搜索部分深色背景图
+    searchImageL      = "assets/images/CHRISTMAS.jpg"		#搜索部分浅色背景图
+    searchImageD      = "assets/images/CHRISTMAS.jpg"		#搜索部分深色背景图
     logoExpandLight   = "assets/images/logo@2x.png"
     logoExpandDark    = "assets/images/logo@2x.png"
     logoCollapseLight = "assets/images/logos/jobcher.png"

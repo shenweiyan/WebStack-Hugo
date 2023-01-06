@@ -19,8 +19,8 @@ jobs:
           done
         env:
           GITHUB_REPOSITORY: shenweiyan/WebStack-Hugo
-          #GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
-          #GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           
       - name: Push to Coding
         run: |
@@ -39,15 +39,15 @@ jobs:
           
       - name: Push to Gitee
         run: |
-          echo "stop!"
-          #remote_repo="https://${GITEE_USERNAME}:${GITEE_PASSWORD}@gitee.com/${GITEE_REPOSITORY}.git"
-          #git remote add gitee "${remote_repo}"
-          #git show-ref # useful for debugging
-          #git branch --verbose
+          #echo "stop!"
+          remote_repo="https://${GITEE_USERNAME}:${GITEE_PASSWORD}@gitee.com/${GITEE_REPOSITORY}.git"
+          git remote add gitee "${remote_repo}"
+          git show-ref # useful for debugging
+          git branch --verbose
           # publish all
-          #git push --all --force gitee
-          #git push --tags --force gitee
+          git push --all --force gitee
+          git push --tags --force gitee
         env:
           GITEE_REPOSITORY: shenweiyan/WebStack-Hugo
-          #GITEE_USERNAME: ${{ secrets.GITEE_USERNAME }}
-          #GITEE_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
+          GITEE_USERNAME: ${{ secrets.GITEE_USERNAME }}
+          GITEE_PASSWORD: ${{ secrets.GITEE_PASSWORD }}

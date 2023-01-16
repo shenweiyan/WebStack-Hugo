@@ -1,11 +1,11 @@
-baseURL = "https://nav.bioitee.com"
-languageCode = "zh-CN"
-title = "WebStack-Hugo 网址导航"
-theme = "WebStack-Hugo"
+baseURL               = "https://nav.bioitee.com"
+languageCode          = "zh-CN"
+title                 = "WebStack-Hugo 网址导航"
+theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
-disablePathToLower = true
-hasCJKLanguage = true
-publishDir = "docs"
+disablePathToLower    = true
+hasCJKLanguage        = true
+publishDir            = "docs"
 
 
 [params]

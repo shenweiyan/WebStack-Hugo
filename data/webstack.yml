@@ -161,6 +161,11 @@
           logo: default.webp
           url: https://www.chatbcg.com/
           description: PPT制作人工智能AI🔮
+        - title: excalidraw
+          logo: excalidraw.jfif
+          url: https://excalidraw.com/
+          description: 虚拟白板，用于绘制手绘图
+          
 
 
 

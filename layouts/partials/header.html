@@ -8,9 +8,9 @@
     <title>{{ .Site.Title }}</title>
     <link rel="shortcut icon" href="{{ $.Site.Params.images.favicon }}">
     <meta name="keywords" content="{{ .Site.Title }}">
-    <meta name="baidu-site-verification" content="code-ERzo5lqNbW" />
-    <meta name="sogou_site_verification" content="c5kms0qkyL"/>
-    <meta name="360-site-verification" content="fcc13eac55051e381be8a06453359bc1" />
+    {{ if $.Site.Params.seo.baiduSiteVer }}
+    <meta name="baidu-site-verification" content="{{ $.Site.Params.seo.baiduSiteVer }}" />
+    {{ end }}
     <link rel='stylesheet' id='block-library-css' href='{{ $.Site.Params.siteurl }}/assets/css/block-library.min-5.6.2.css' type='text/css' media='all'>
     <link rel='stylesheet' id='iconfont-css' href='{{ $.Site.Params.siteurl }}/assets/css/iconfont-3.03029.1.css' type='text/css' media='all'>
     <link rel='stylesheet' id='bootstrap-css' href='{{ $.Site.Params.siteurl }}/assets/css/bootstrap.min-4.3.1.css' type='text/css' media='all'>
@@ -25,7 +25,7 @@
         var _hmt = _hmt || [];
         (function () {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?{{ $.Site.Params.baiduhmid }}";
+            hm.src = "https://hm.baidu.com/hm.js?{{ $.Site.Params.seo.baiduhmid }}";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();

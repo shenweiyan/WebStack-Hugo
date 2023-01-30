@@ -77,6 +77,11 @@
           logo: 阿里云.jpg
           url: https://common-buy.aliyun.com/?spm=5176.8071678.J_3365434990.1.22a55477TycNB9&commodityCode=alimail&specCode=lx_18482&request=%7B%22ord_time%22:%223:Year%22,%22account_num%22:%225%22%7D#/buy
           description: 阿里云免费企业邮箱申请
+        - title: 推送到kindle
+          logo: kindle.jfif
+          url: https://www.amazon.com/sendtokindle
+          description: kindle(美区)发送地址，最大200MB
+
 
 
     - term: 工作

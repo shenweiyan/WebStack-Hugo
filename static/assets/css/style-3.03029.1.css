@@ -539,7 +539,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big .s-type-list label:not(.active),.header-big:not(.no-bg) .search-type label{opacity:.5;transition:opacity .3s}
 .header-big .s-type-list label:not(.active):hover,.header-big:not(.no-bg) .search-type label:hover{opacity:1}
 .header-big .search-type input:checked+label{opacity:1}
-.header-big #search-text{border-radius:50px;color:#fff;border:1px solid rgba(255,255,255,.05);padding:9px 20px;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);background-color:rgba(0,0,0,0.6)!important}
+.header-big #search-text{border-radius:50px;color:#fff;border:1px solid rgba(255,255,255,.05);padding:9px 20px;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);}
 .header-big #search button{position:absolute;top:0;right:0;background:transparent;border:0!important;width:unset;height:unset;margin:0 9px;line-height:50px;border-radius:3px}
 .header-big #search button:active,.header-big #search button:focus{box-shadow:none;outline:none;border:0!important}
 /*.header-big .search-smart-tips{top:100px}*/

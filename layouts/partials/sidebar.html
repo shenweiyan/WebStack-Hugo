@@ -1,4 +1,8 @@
+{{ if $.Site.Params.nightMode }}
+<body class="io-black-mode">
+{{ else }}
 <body class="io-grey-mode">
+{{ end }}
     {{ if $.Site.Params.enablePreLoad }}
     <div id="loading">
         <style>

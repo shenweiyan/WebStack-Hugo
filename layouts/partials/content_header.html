@@ -5,9 +5,9 @@
                 <div class="container-fluid p-0">
 
                     <a href="" class="navbar-brand d-md-none" title="{{ .Site.Title }}">
-                        <img src="{{ $.Site.Params.images.logoCollapseLight }}" class="logo-light"
+                        <img src="{{ relURL $.Site.Params.images.logoCollapseLight }}" class="logo-light"
                             alt="{{ .Site.Title }}">
-                        <img src="{{ $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none"
+                        <img src="{{ relURL $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none"
                             alt="{{ .Site.Title }}">
                     </a>
 
@@ -62,7 +62,7 @@
                                         "fixed": "false",
                                         "vertical": "middle",
                                         "horizontal": "left",
-                                        "key": {{ $.Site.Params.qweather.key }}
+                                        "key": "{{ $.Site.Params.qweather.key }}"
                                     }
                                 }
                             </script>
@@ -73,6 +73,7 @@
 
                     <ul class="nav navbar-menu text-xs order-1 order-md-2">
                         <!-- 一言 -->
+                        {{ with .Site.Params.yiyan }}
                         <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
                             <script>
                                 fetch('https://v1.hitokoto.cn')
@@ -86,6 +87,7 @@
                             </script>                           
                             <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
                         </li>
+                        {{ end }}
                         <!-- 一言 end -->
                         <li class="nav-search ml-3 ml-md-4">
                             <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i

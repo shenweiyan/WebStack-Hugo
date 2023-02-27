@@ -11,7 +11,6 @@ publishDir            = "docs"					# 站点静态文件保存目录
 [params]
     author        = "shenweiyan"
     description   = "Webstack-Hugo 网址导航 | Hugo 主题 BY Bio IT 爱好者"
-    siteurl       = "./"
     upload        = "https://www.yuque.com/forms/share/1a1fee15-f7a9-4ee6-9dd4-b0ba9fef1871"  # 左侧导航栏的"网站提交"
     about         = "https://shumlab.com/cookbook/webstack-hugo"	# 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
@@ -20,14 +19,13 @@ publishDir            = "docs"					# 站点静态文件保存目录
     expandSidebar = false					# 默认展开左侧边导航栏
     logosPath     = "assets/images/logos"			# 网站每个导航地址logo存放地址
     defaultLogo   = "assets/images/logos/default.webp"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
-    nightMode     = true					# 默认站点为深色(夜间)模式
-    yiyan         = true                         # 一言
+    nightMode     = false					# 默认站点为深色(夜间)模式
+    yiyan         = true                         		# 默认启用一言服务
 
 [params.seo]    
     baiduhmid     = 'efccc04cb44fc49faddac5876180b369'		# 百度统计 hm.src 的 ID
     baiduSiteVer  = 'codeva-cCAOSG8MBO'				# 百度HTML标签验证(baidu-site-verification)
-
-    tj51laid        = ''                        # 51.LA 网站统计
+    tj51laid        = ''                        		# 51.LA 网站统计
     tj51lack        = ''
 
 [params.qweather]

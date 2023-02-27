@@ -74,15 +74,15 @@
                     <!-- logo -->
                     <div class="logo overflow-hidden">
                         <a href="" class="logo-expanded">
-                            <img src="{{ $.Site.Params.images.logoExpandLight }}" height="40" class="logo-light"
+                            <img src="{{ relURL $.Site.Params.images.logoExpandLight }}" height="40" class="logo-light"
                                 alt="{{ .Site.Title }}">
-                            <img src="{{ $.Site.Params.images.logoExpandDark }}" height="40" class="logo-dark d-none"
+                            <img src="{{ relURL $.Site.Params.images.logoExpandDark }}" height="40" class="logo-dark d-none"
                                 alt="{{ .Site.Title }}">
                         </a>
                         <a href="" class="logo-collapsed">
-                            <img src="{{ $.Site.Params.images.logoCollapseLight }}" height="40" class="logo-light"
+                            <img src="{{ relURL $.Site.Params.images.logoCollapseLight }}" height="40" class="logo-light"
                                 alt="{{ .Site.Title }}">
-                            <img src="{{ $.Site.Params.images.logoCollapseDark }}" height="40" class="logo-dark d-none"
+                            <img src="{{ relURL $.Site.Params.images.logoCollapseDark }}" height="40" class="logo-dark d-none"
                                 alt="{{ .Site.Title }}">
                         </a>
                     </div>

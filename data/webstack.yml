@@ -281,6 +281,26 @@
         - title: AILab Tools
           logo: 210d6-www.ailabtools.com.png
           url: https://www.ailabtools.com
+          description: AILabTools是一个人工智能能力和工具的供应商，提供广泛的人工智能工具用于图像处理。
+        
+        - title: Vega AI
+          logo: WX20230223-133138@2x.png
+          url: https://rightbrain.art/text2Image
+          description: 识别中文关键词，创作你的艺术作品！
+
+        - title: BeautifulAI
+          logo: www.beautiful.ai.ico
+          url: https://www.beautiful.ai/
+          description: 用AI生成漂亮的PPT
+        
+        - title: Easy-Peasy.AI
+          logo: c2fcf-easy-peasy.ai.png
+          url: https://easy-peasy.ai/
+          description: 包含ai生成文案，图片，智能对话，音频转文案等功能的集成应用
+        
+  
+
+
 
 
     - term: 资源下载

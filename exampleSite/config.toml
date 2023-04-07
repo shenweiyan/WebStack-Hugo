@@ -1,4 +1,4 @@
-baseURL               = "https://nav.bioitee.com"
+baseURL               = "https://shenweiyan.github.io/WebStack-Hugo/"
 languageCode          = "zh-CN"
 title                 = "WebStack-Hugo 网址导航"
 theme                 = "WebStack-Hugo"

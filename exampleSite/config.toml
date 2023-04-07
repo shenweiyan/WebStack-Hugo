@@ -5,7 +5,7 @@ theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
 hasCJKLanguage        = true
-publishDir            = "docs"					# 站点静态文件保存目录
+publishDir            = "public"					# 站点静态文件保存目录
 
 
 [params]

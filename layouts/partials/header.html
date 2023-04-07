@@ -31,13 +31,13 @@
     <!-- 百度统计 -->
     <script>
         {{ with .Site.Params.seo.baiduhmid }}
-        var _hmt = _hmt || []
+        var _hmt = _hmt || [];
             (function () {
-                var hm = document.createElement("script")
-                hm.src = "https://hm.baidu.com/hm.js?{{ $.Site.Params.seo.baiduhmid }}"
-                var s = document.getElementsByTagName("script")[0]
-                s.parentNode.insertBefore(hm, s)
-            })()
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?{{ $.Site.Params.seo.baiduhmid }}";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
         {{ end }}
     </script>
     <!-- end 百度统计 -->

@@ -22,6 +22,8 @@ jobs:
 
       - name: Build Site
         run: |
+          pwd
+          ls
           cp -R exampleSite/* .
           hugo --themesDir ../
           

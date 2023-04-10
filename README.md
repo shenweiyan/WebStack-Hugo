@@ -9,7 +9,6 @@
 
 ## 主题演示地址
 
-- [https://nav.bioitee.com](https://nav.bioitee.com)
 - [https://bioit.top](https://bioit.top)
 - [https://so.gd.cn](https://so.gd.cn)
 

@@ -145,11 +145,7 @@
         - title: 全球 OID 参考数据库
           logo: default.webp
           url: http://oidref.com/
-          description: 这是为互联网用户发布的完整的世界 OID 数据库
-        - title: MindShow.fun
-          logo: mindshow.png
-          url: https://www.mindshow.fun/
-          description: 自动生成幻灯片    
+          description: 这是为互联网用户发布的完整的世界 OID 数据库   
         - title: Conda
           logo: CONDA.png
           url: https://www.anaconda.com/
@@ -162,14 +158,6 @@
           logo: default.webp
           url: https://www.betaqr.com/
           description: APP发布测试平台
-        - title: chatBCG
-          logo: default.webp
-          url: https://www.chatbcg.com/
-          description: PPT制作人工智能AI🔮
-        - title: excalidraw
-          logo: excalidraw.jfif
-          url: https://excalidraw.com/
-          description: 虚拟白板，用于绘制手绘图
           
 
 
@@ -218,6 +206,10 @@
           logo: VOA.jfif
           url: https://www.voachinese.com/
           description: 美国之音VOA新闻站
+        - title: Hacker News
+          logo: hackernew.png
+          url: https://news.ycombinator.com/newest
+          description: 黑客新闻-有相关技术新闻
 
 - taxonomy: 各类资源
   icon: fas fa-film fa-lg

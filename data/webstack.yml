@@ -4,7 +4,7 @@
   icon: far fa-star
   links: 
     - title: 网址导航
-      logo: jobcher.png
+      logo: bear2.png
       url: https://nav.jobcher.com/
       description: 个人网址导航，随缘更新
     - title: jellyfin
@@ -12,7 +12,7 @@
       url: https://video.jobcher.com/
       description: 家庭视频资源，如要开通请联系我
     - title: 打工人日志
-      logo: jobcher.png
+      logo: bear2.png
       url: https://www.jobcher.com/
       description: 个人博客分享，记录打工
     - title: NAS 群晖

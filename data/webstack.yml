@@ -274,25 +274,20 @@
 
     - term: AI资源
       links:
-        - title: AILab Tools
+        - title: PicFinder
           logo: 210d6-www.ailabtools.com.png
-          url: https://www.ailabtools.com
-          description: AILabTools是一个人工智能能力和工具的供应商，提供广泛的人工智能工具用于图像处理。
+          url: https://picfinder.ai/
+          description: 一个无限的图像生成工具，永远免费。
         
-        - title: Vega AI
-          logo: WX20230223-133138@2x.png
-          url: https://rightbrain.art/text2Image
-          description: 识别中文关键词，创作你的艺术作品！
+        - title: Ai Valley
+          logo: Aivalley.webp
+          url: https://aivalley.ai/
+          description: AI 工具和提示和导航
 
-        - title: BeautifulAI
-          logo: www.beautiful.ai.ico
-          url: https://www.beautiful.ai/
-          description: 用AI生成漂亮的PPT
-        
-        - title: Easy-Peasy.AI
-          logo: c2fcf-easy-peasy.ai.png
-          url: https://easy-peasy.ai/
-          description: 包含ai生成文案，图片，智能对话，音频转文案等功能的集成应用
+        - title: vercel
+          logo: vercel.png
+          url: https://vercel.com/
+          description: Vercel的前端云为开发人员提供了框架，工作流程和基础架构，以构建更快，更个性化的Web。
         
   
 

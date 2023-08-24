@@ -9,7 +9,7 @@
 
 ## 主题演示地址
 
-- [https://bioit.top](https://bioit.top)
+- [https://bioit.top](https://bioit.top) - <https://github.com/shenweiyan/NavBioIT>
 - [https://so.gd.cn](https://so.gd.cn)
 
 

@@ -6,6 +6,9 @@ body,html{font-size:14px;}
 .sidebar-popup.sidebar-menu-inner ul{width:90px}
 .sidebar-popup.sidebar-menu-inner ul li{width:90px}
 
+/*隐藏左导航scrollbar*/
+.sidebar-menu.flex-fill::-webkit-scrollbar{display:none}
+
 /*搜索框搜索图标颜色*/
 #search button i{color:#6C757D;font-size:18px}
 

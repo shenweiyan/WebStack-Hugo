@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#f9f9f9" />
+    <title>{{ .Site.Title }}</title>
+    <link rel="shortcut icon" href="{{ relURL $.Site.Params.images.favicon }}" />
+    <meta name="keywords" content="{{ .Site.Title }}" />
+    {{ if $.Site.Params.seo.baiduSiteVer }}
+    <meta name="baidu-site-verification" content="{{ $.Site.Params.seo.baiduSiteVer }}" />
+    {{ end }}
+    <link rel="stylesheet" id="block-library-css"
+        href="{{ relURL "assets/css/block-library.min-5.6.2.css" }}" type="text/css" media="all" />
+    <link rel="stylesheet" id="iconfont-css" href="{{ relURL "assets/css/iconfont-3.03029.1.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="bootstrap-css" href="{{ relURL "assets/css/bootstrap.min-4.3.1.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="fancybox-css" href="{{ relURL "assets/css/fancybox.min-3.5.7.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="iowen-css" href="{{ relURL "assets/css/style-3.03029.1.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="custom-css" href="{{ relURL "assets/css/custom-style.css" }}"
+        type="text/css" media="all" />
+    <link rel="stylesheet" id="fortawesome-css" href="{{ relURL "assets/fontawesome-5.15.4/css/all.min.css" }}" type="text/css" />
+    <script type="text/javascript" src="{{ relURL "assets/js/jquery.min-3.2.1.js" }}" id="jquery-js"></script>
+    <script type="text/javascript" src="{{ relURL "assets/js/content-search.js" }}"  id="content-search-js"></script>
+    <!-- 百度统计 -->
+    <script>
+        {{ with .Site.Params.seo.baiduhmid }}
+        var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?{{ $.Site.Params.seo.baiduhmid }}";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        {{ end }}
+    </script>
+    <!-- end 百度统计 -->
+    <!-- 51.LA 网站统计 -->
+    {{ with .Site.Params.seo.tj51laid }}
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"{{ $.Site.Params.seo.tj51laid }}",ck:"{{ $.Site.Params.seo.tj51lack }}"})</script>    
+    {{ end }} 
+    <!-- end 51.LA 网站统计 -->
+    <!-- Google AdSense -->
+    {{ if .Site.Params.seo.GoogleAdsClient }}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $.Site.Params.seo.GoogleAdsClient }}" crossorigin="anonymous"></script>
+    {{ end }}
+    <!-- end Google AdSense -->
+</head>

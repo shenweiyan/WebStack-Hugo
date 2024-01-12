@@ -9,8 +9,8 @@
 
 ## 主题演示地址
 
-- [https://www.bioit.top](https://www.bioit.top) （源码地址：<https://github.com/shenweiyan/NavBioIT>）
-- [https://so.gd.cn](https://so.gd.cn)
+- 站点：[https://www.bioit.top](https://www.bioit.top)
+- 源码：<https://github.com/shenweiyan/NavBioIT>
 
 
 ## 特色功能
@@ -62,9 +62,7 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 
 关于 Windows/Linux 下详细的安装与使用说明，请参考文档：
 
-- <https://www.yuque.com/shenweiyan/cookbook/webstack-hugo> - 暂停更新
-- <https://github.com/shenweiyan/Knowledge-Garden/discussions/10> - 维护中
-
+- <https://github.com/shenweiyan/Knowledge-Garden/discussions/10> 
 
 ## 感谢
 
@@ -74,9 +72,9 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 - [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
 - [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
 
-感谢以下所有朋友对本主题所做出的贡献。
-
-[@yanbeiyinhanghang](https://github.com/yinhanghang) [@jetsung](https://github.com/jetsung)
+感谢以下所有朋友对本主题所做出的贡献。    
+- [@yanbeiyinhanghang](https://github.com/yinhanghang)     
+- [@jetsung](https://github.com/jetsung)
 
 ## 赞赏
 

@@ -1,4 +1,4 @@
-name: Sync-Gitee-Coding
+name: code-sync
 
 on:
   push:
@@ -37,17 +37,13 @@ jobs:
           #CODING_USERNAME: ${{ secrets.CODING_USERNAME }}
           #CODING_PASSWORD: ${{ secrets.CODING_PASSWORD }}
           
-      - name: Push to Gitee
-        run: |
-          #echo "stop!"
-          remote_repo="https://${GITEE_USERNAME}:${GITEE_PASSWORD}@gitee.com/${GITEE_REPOSITORY}.git"
-          git remote add gitee "${remote_repo}"
-          git show-ref # useful for debugging
-          git branch --verbose
-          # publish all
-          git push --all --force gitee
-          git push --tags --force gitee
-        env:
-          GITEE_REPOSITORY: shenweiyan/WebStack-Hugo
-          GITEE_USERNAME: ${{ secrets.GITEE_USERNAME }}
-          GITEE_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
+      - name: Push to Gitee 
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/shenweiyan
+          dst: gitee/shenweiyan
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: "WebStack-Hugo"
+          force_update: true
+          timeout: '0.5h'

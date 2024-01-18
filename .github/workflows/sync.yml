@@ -36,6 +36,19 @@ jobs:
           CODING_REPOSITORY: shumlab/webstack/WebStack-Hugo
           #CODING_USERNAME: ${{ secrets.CODING_USERNAME }}
           #CODING_PASSWORD: ${{ secrets.CODING_PASSWORD }}
+
+      - name: Push to Gitcode
+        run: |
+          remote_repo="https://shenweiyan:${GITCODE_PAT}@gitcode.com/${GITCODE_REPOSITORY}.git"
+          git remote add gitcode "${remote_repo}"
+          git show-ref
+          git branch --verbose
+          # publish all
+          git push --all --force gitcode
+          git push --tags --force gitcode
+        env:
+          GITCODE_REPOSITORY: shenweiyan/WebStack-Hugo
+          GITCODE_PAT: ${{ secrets.GITCODE_PAT }}
           
       - name: Push to Gitee 
         uses: Yikun/hub-mirror-action@master

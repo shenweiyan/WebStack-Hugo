@@ -114,8 +114,8 @@ a>i.sidebar-more{transform:scale(.8)}
 .navbar-collapse li>ul{-webkit-transform:translateY(15px);transform:translateY(15px)}
 .navbar-collapse ul li ul{position:absolute;min-width:90px;opacity:0;overflow:hidden;visibility:hidden;background:#fff;border-radius:4px;box-shadow:0 5px 20px 0px rgba(0,0,0,.15);transition:.3s}
 .navbar-collapse ul li.focus>ul,.navbar-collapse ul li:hover>ul{opacity:1;z-index:1;overflow:visible;visibility:visible;-webkit-transform:translateY(0);transform:translateY(0)}
-.navbar-collapse ul li.menu-item-has-children:after{content:'\e616';font-family:"iconfont";position:absolute;top:14px;right:-2px;font-size:12px;-webkit-transform:scale(.6);transform:rotate(0deg) scale(.6);transition:transform .2s}
-.navbar-collapse ul li.menu-item-has-children:hover:after{transform:rotate(45deg) scale(.6)}
+.navbar-collapse ul li.menu-item-has-children:after{content:'\e616';font-family:"iconfont";position:absolute;top:10px;right:-2px;font-size:12px;-webkit-transform:scale(.6);transform:rotate(-90deg) scale(.6);transition:transform .2s}
+.navbar-collapse ul li.menu-item-has-children:hover:after{transform:rotate(0deg) scale(.6)}
 .navbar .navbar-nav li>a{font-size:14px;padding:10px 15px;display:block;transition:color .2s}
 .navbar .navbar-nav i{margin-right:2px!important}
 .navbar-menu{-ms-flex-direction:row;flex-direction:row;margin-left:auto;-ms-align-items:center;align-items:center}

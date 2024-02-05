@@ -3,13 +3,8 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: 关注我们
-      logo: ""
-      url: https://bioitee.com
-      qrcode: assets/images/logos/qrcode.jpg
-      description: BioIT 爱好者！
     - title: 语雀
-      logo: 语雀.jpg
+      logo: 语雀.webp
       url: https://www.yuque.com/
       description: 专业的云端知识库。
     - title: QQ 邮箱
@@ -24,18 +19,10 @@
       logo: 微信公众号.png
       url: https://mp.weixin.qq.com/
       description: 再小的个体也有自己的品牌。
-    - title: CODING
-      logo: coding.png
-      url: https://shenweiyan.coding.net/user/projects
-      description: 个人 CODING 代码托管。
     - title: GitHub
-      logo: github.jpg
+      logo: github.png
       url: https://github.com/
       description: GitHub 开源社区。
-    - title: Md2X 定制版
-      logo: mdx.png
-      url: https://mdx.ncbix.com/
-      description: Markdown 排版利器，Md2All 定制版。
     - title: 搜狗微信
       logo: 搜狗微信.jpg
       url: https://weixin.sogou.com/
@@ -48,10 +35,11 @@
       logo: v2ex.jpg
       url: https://www.v2ex.com/
       description: V2EX 创意工作者的社区。
-    - title: 语雀话题
-      logo: 语雀话题.png
-      url: https://www.yuque.com/shenweiyan/wow
-      description: 好看的皮囊千篇一律，有趣的灵魂万里挑一！
+    - title: 关注我们
+      logo: 关注.jpg
+      url: https://www.bioitee.com
+      qrcode: qrcode.jpg
+      description: 微信公众号：BioIT 爱好者！
 
 
 - taxonomy: 科研办公
@@ -71,10 +59,10 @@
           logo: cpan.jpg
           url: https://metacpan.org/
           description: Search the CPAN.
-        - title: Gitter Galaxy
-          logo: gitter.jpg
-          url: https://gitter.im/galaxyproject
-          description: Galaxy Gitter Community.
+        - title: Galaxy Project
+          logo: galaxy_project.png
+          url: https://galaxyproject.org/
+          description: Galaxy Community Hub.
         - title: R Project
           logo: r-project.jpg
           url: https://www.r-project.org/
@@ -90,7 +78,7 @@
           url: https://www.aliyun.com/
           description: 上云就上阿里云。
         - title: 腾讯云
-          logo: 腾讯云.jpg
+          logo: 腾讯云.webp
           url: https://cloud.tencent.com/
           description: 产业智变，云启未来。
         - title: 华为云
@@ -98,9 +86,9 @@
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
         - title: 云筏科技
-          logo: ''
-          url: https://my.cloudraft.cn/
-          description: 云筏 - 科研云。
+          logo: 云筏.png
+          url: https://www.cloudraft.cn/
+          description: 你的生信科研好选择。
         - title: 极云普惠云电脑
           logo: 极云普惠云电脑.png
           url: https://www.ji-cloud.cn/
@@ -158,14 +146,6 @@
           logo: 网易云音乐.jpg
           url: https://music.163.com/
           description: 163 网易云音乐。
-        - title: 电影天堂（DYTT8）
-          logo: 电影天堂.png
-          url: https://www.dytt8.net/index.htm
-          description: 电影天堂（DYTT8），高清电影下载。
-        - title: 电影天堂（DYGOD）
-          logo: 电影天堂.png
-          url: https://www.dygod.net/
-          description: 电影天堂（DYGOD），高清电影下载。
     - term: 游戏竞技
       links:
         - title: 百度贴吧
@@ -387,32 +367,6 @@
           url: http://www.abstractfonts.com/
           logo: abstractfonts.png
           description: Abstract Fonts (13,866 free fonts).      
-    - term: PPT资源
-      links:
-        - title: OfficePLUS
-          url: http://www.officeplus.cn/Template/Home.shtml
-          logo: officeplus.png
-          description: OfficePLUS，微软Office官方在线模板网站！
-        - title: 优品PPT
-          url: http://www.ypppt.com/
-          logo: ypppt.png
-          description: 高质量的模版，而且还有PPT图表，PPT背景图等资源。
-        - title: PPT+
-          url: http://www.pptplus.cn/
-          logo: pptplus.png
-          description: PPT加直播、录制和分享—PPT+语音内容分享平台。
-        - title: PPTMind
-          url: http://www.pptmind.com/
-          logo: pptmind.png
-          description: 分享高端 ppt 模板与 keynote 模板的数字作品交易平台。
-        - title: tretars
-          url: http://www.tretars.com/ppt-templates
-          logo: tretars.png
-          description: The best free Mockups from the Web.
-        - title: 5百丁
-          url: http://ppt.500d.me/
-          logo: 500d.png
-          description: 中国领先的PPT模板共享平台。
       
 
 - taxonomy: 开发设计

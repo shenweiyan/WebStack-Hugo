@@ -21,10 +21,15 @@
                         <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
 			去除 Tooltip -->
 			{{ if .qrcode }}
-			<a href="javascript:" target=""
-                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                            {{ if findRE "http.*?(.|\n)*?" .qrcode }}
+                    	        <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" 
+                                title="<img src='{{ .qrcode }}' width='128'>">
+                            {{ else }}
+                                <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true"
+                                title="<img src='{{ $.Site.Params.logosPath }}/{{ .qrcode }}' width='128'>">
+                            {{ end }}
                         {{ else }}
-                        <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}"
+                            <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}"
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
 			{{ end }}
                             <div class="card-body">
@@ -88,10 +93,15 @@
 			<a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
 			-->
 			{{ if .qrcode }}
-			<a href="javascript:" target=""
-                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                            {{ if findRE "http.*?(.|\n)*?" .qrcode }}
+			        <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" 
+                                title="<img src='{{ .qrcode }}' width='128'>">
+                            {{ else }}
+                                <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true"
+                                title="<img src='{{ $.Site.Params.logosPath }}/{{ .qrcode }}' width='128'>">
+                            {{ end }}
                         {{ else }}
-                        <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" 
+                            <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" 
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
 			{{ end }}
                             <div class="card-body">

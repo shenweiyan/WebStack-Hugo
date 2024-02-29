@@ -13,7 +13,6 @@
 - 站点：[https://bioit.top](https://bioit.top)
 - 源码：<https://github.com/shenweiyan/NavBioIT>
 
-
 ## 特色功能
 
 这是 Hugo 版 WebStack 主题。可以借助下面的平台直接托管部署，无需服务器。
@@ -41,11 +40,11 @@
     - term: 云服务器
       links:
         - title: 阿里云
-          logo: 阿里云.jpg
+          logo: 阿里云。jpg
           url: https://www.aliyun.com/
           description: 上云就上阿里云。
         - title: 腾讯云
-          logo: 腾讯云.jpg
+          logo: 腾讯云。jpg
           url: https://cloud.tencent.com/
           description: 产业智变，云启未来。
 ```
@@ -53,22 +52,38 @@
 - 增加了搜索功能，以及下拉的热词选项（基于百度 API）。
 - 增加了一言、和风天气的 API。
 
+## 国际化
+
+在`config.toml`中使用不同语言的站点信息，如：
+
+```toml
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+```
+
+那么便需要在
+
+```toml
+[languages]
+  [languages.xxx]
+```
+
+中定义不同语言的站点信息，你也可以自定义新的语言。
+
 ## 使用说明
 
 这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
 
 WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎来本项目中 [issue](https://github.com/shenweiyan/WebStack-Hugo/issues) 分享一下！
 
-
 ## 安装说明
 
 关于 Windows/Linux 下详细的安装与使用说明，请参考文档。
 
 > [!TIP] 
-> 链接1：**[shenweiyan/Knowledge-Garden#10](https://github.com/shenweiyan/Knowledge-Garden/discussions/10)**
+> 链接 1：**[shenweiyan/Knowledge-Garden#10](https://github.com/shenweiyan/Knowledge-Garden/discussions/10)**
 > 
-> 链接2：**<https://weiyan.cc/kg-discussions-10>**
-
+> 链接 2：**<https://weiyan.cc/kg-discussions-10>**
 
 ## 感谢
 
@@ -87,4 +102,3 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 如果你觉得本项目对你有所帮助，欢迎请作者喝杯热咖啡 >.<
 
 ![donate-wecaht-aliapy](https://user-images.githubusercontent.com/26101369/212630361-aa393be8-581e-4a97-bfe2-256e883791fb.jpg)
-

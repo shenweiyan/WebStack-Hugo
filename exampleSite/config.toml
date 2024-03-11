@@ -1,12 +1,25 @@
 baseURL               = "https://bioit.top/"
-languageCode          = "zh-CN"
-title                 = "WebStack-Hugo 网址导航"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
 hasCJKLanguage        = true
-publishDir            = "public"				# 站点静态文件保存目录
+publishDir            = "docs"
 
+[languages]
+  [languages.en-us]
+    title = "WebStack"
+    contentDir = "data/en-us"
+    textPreLoad   = "Website navigation"	                      # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    [languages.en-us.params.footer]
+        copyright = 'The content on this site is sourced from the internet. If any content infringes on your rights, please contact us to remove the relevant material. Contact email: weiyanshum@foxmail.com <br/>&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | [Bio IT Enthusiast](https://www.bioitee.com/) | [Yue ICP License 16023717](http://beian.miit.gov.cn/)<br/>'
+
+  [languages.zh-cn]
+    title = "网址导航"
+    textPreLoad   = "网址导航"	                                           # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    [languages.zh-cn.params.footer]
+        copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：weiyanshum@foxmail.com <br/>&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | [Bio IT 爱好者](https://www.bioitee.com/) | [粤ICP备16023717号](http://beian.miit.gov.cn/)<br/>'
 
 [params]
     author        = "shenweiyan"
@@ -15,7 +28,6 @@ publishDir            = "public"				# 站点静态文件保存目录
     about         = "https://github.com/shenweiyan/Knowledge-Garden/discussions/10"	          # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
     enablePreLoad = true					# 网站完全打开前预加载动画
-    textPreLoad   = "Hugo 网址导航主题"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = false					# 默认展开左侧边导航栏
     logosPath     = "assets/images/logos"			# 网站每个导航地址logo存放地址
     defaultLogo   = "assets/images/logos/default.webp"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
@@ -43,6 +55,3 @@ publishDir            = "public"				# 站点静态文件保存目录
     
 [markup.goldmark.renderer]
     unsafe = true
-
-[params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：weiyanshum@foxmail.com <br/>&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | [Bio IT 爱好者](https://www.bioitee.com/) | [粤ICP备16023717号](http://beian.miit.gov.cn/)<br/>'

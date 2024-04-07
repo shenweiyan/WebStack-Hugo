@@ -5,9 +5,9 @@
                 <div class="container-fluid p-0">
 
                     <a href="" class="navbar-brand d-md-none" title="{{ .Site.Title }}">
-                        <img src="{{ relURL $.Site.Params.images.logoCollapseLight }}" class="logo-light"
+                        <img src="{{ absURL $.Site.Params.images.logoCollapseLight }}" class="logo-light"
                             alt="{{ .Site.Title }}">
-                        <img src="{{ relURL $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none"
+                        <img src="{{ absURL $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none"
                             alt="{{ .Site.Title }}">
                     </a>
 

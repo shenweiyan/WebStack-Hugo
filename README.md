@@ -79,7 +79,6 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 - [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
 
 感谢以下所有朋友对本主题所做出的贡献。  
-
 - [@yuanj82](https://github.com/yuanj82)        
 - [@yanbeiyinhanghang](https://github.com/yinhanghang)     
 - [@jetsung](https://github.com/jetsung)

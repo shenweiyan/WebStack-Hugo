@@ -4,9 +4,9 @@
 
 ## 主题开源地址
 
-- GitHub：[https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
-- GitCode：[https://gitcode.com/shenweiyan/WebStack-Hugo](https://gitcode.com/shenweiyan/WebStack-Hugo/overview)
-- Gitee：[https://gitee.com/shenweiyan/WebStack-Hugo](https://gitee.com/shenweiyan/WebStack-Hugo)
+- **GitCode：** [https://gitcode.com/shenweiyan/WebStack-Hugo](https://gitcode.com/shenweiyan/WebStack-Hugo/overview)
+- **Gitee：** [https://gitee.com/shenweiyan/WebStack-Hugo](https://gitee.com/shenweiyan/WebStack-Hugo)
+- **GitHub：** [https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)
 
 ## 主题演示地址
 

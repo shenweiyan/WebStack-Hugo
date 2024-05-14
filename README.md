@@ -10,7 +10,7 @@
 ## 主题演示地址
 
 - 站点：[https://bioit.top](https://bioit.top)
-- 源码：<https://github.com/shenweiyan/NavBioIT>
+- 源码：<https://github.com/shenweiyan/Bioit-top>
 
 
 ## 特色功能

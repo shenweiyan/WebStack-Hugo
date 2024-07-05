@@ -88,3 +88,7 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 
 ![donate-wecaht-aliapy](https://user-images.githubusercontent.com/26101369/212630361-aa393be8-581e-4a97-bfe2-256e883791fb.jpg)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=shenweiyan/WebStack-Hugo&type=Date)](https://star-history.com/#shenweiyan/WebStack-Hugo&Date)
+

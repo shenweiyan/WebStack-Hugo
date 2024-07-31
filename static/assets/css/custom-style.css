@@ -109,6 +109,11 @@ footer.main-footer .footer-text a:hover {
     background-color: #d8d8d8;
 }
 
+/*导航 Logo 图标裁剪边角*/
+.url-card .url-img > img {
+    border-radius: 20%;
+}
+
 
 
 

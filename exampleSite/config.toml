@@ -33,13 +33,13 @@ publishDir            = "public"				# 站点静态文件保存目录
     key = "085791e805a24491b43b06cf58ab31e7"
 
 [params.images]
-    favicon           = "assets/images/favicon.png"
+    favicon           = "assets/images/bi-favicon.png"
     searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
-    logoExpandLight   = "assets/images/bt8-expand-light.png"
-    logoExpandDark    = "assets/images/bt8-expand-dark.png"
-    logoCollapseLight = "assets/images/bt.png"
-    logoCollapseDark  = "assets/images/bt.png"
+    logoExpandLight   = "assets/images/bi-expand-light.png"
+    logoExpandDark    = "assets/images/bi-expand-dark.png"
+    logoCollapseLight = "assets/images/bi.png"
+    logoCollapseDark  = "assets/images/bi.png"
     
 [markup.goldmark.renderer]
     unsafe = true

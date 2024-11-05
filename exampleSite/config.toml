@@ -21,6 +21,7 @@ publishDir            = "public"				# 站点静态文件保存目录
     defaultLogo   = "assets/images/logos/default.webp"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
     nightMode     = false					# 默认站点为深色(夜间)模式
     yiyan         = true                         		# 默认启用一言服务
+    fancybox      = true                                        # 使用 Fancybox 实现图片灯箱/放大功能
 
 [params.seo]    
     baiduhmid       = 'efccc04cb44fc49faddac5876180b369'	# 百度统计 hm.src 的 ID

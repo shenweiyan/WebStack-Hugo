@@ -41,15 +41,25 @@
         {{ end }}
     </script>
     <!-- end 百度统计 -->
+
     <!-- 51.LA 网站统计 -->
     {{ with .Site.Params.seo.tj51laid }}
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"{{ $.Site.Params.seo.tj51laid }}",ck:"{{ $.Site.Params.seo.tj51lack }}"})</script>    
     {{ end }} 
     <!-- end 51.LA 网站统计 -->
+
     <!-- Google AdSense -->
     {{ if .Site.Params.seo.GoogleAdsClient }}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $.Site.Params.seo.GoogleAdsClient }}" crossorigin="anonymous"></script>
     {{ end }}
     <!-- end Google AdSense -->
+
+    <!-- Fancybox -->
+    {{if .Page.Site.Params.fancybox }}
+    <link rel="stylesheet" id="fancybox-css" href="{{ absURL "assets/css/fancybox.min-3.5.7.css" }}"/>
+    <script type="text/javascript" id="fancybox-js" src="{{ absURL "assets/js/fancybox.min-3.5.7.js" }}"></script>
+    {{ end }}
+    <!-- end Fancybox -->
+
 </head>

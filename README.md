@@ -62,10 +62,9 @@ WebStack 有非常多的魔改版本，这是其中一个。如果你对本主�
 
 关于 Windows/Linux 下详细的安装与使用说明，请参考文档。
 
-> [!TIP] 
-> 链接1：**[shenweiyan/Knowledge-Garden#10](https://github.com/shenweiyan/Knowledge-Garden/discussions/10)**
-> 
-> 链接2：**<https://weiyan.cc/kg-discussions-10>**
+📗 **《WebStack-Hugo | 一个静态响应式导航主题》** 
+- [链接1 - GitHub Discussions](https://github.com/shenweiyan/Knowledge-Garden/discussions/10)
+- [链接2 - 维燕的知识花园](https://weiyan.cc/kg-discussions-10)
 
 
 ## 感谢

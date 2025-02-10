@@ -42,4 +42,5 @@ jobs:
           #注意这里指的是 Pages 要发布哪个文件夹的内容，而不是指发布到目标仓库的什么位置；因为 hugo 默认生成静态网页到 public 文件夹，所以这里发布 public 文件夹里的内容。
           publish_branch: gh-pages	# 发布到哪个 branch
           force_orphan: true
+          cname: webstack-hugo.weiyan.cc
           full_commit_message: ${{ github.event.head_commit.message }}

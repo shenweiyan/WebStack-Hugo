@@ -9,7 +9,7 @@ jobs:
   deploy: 
     runs-on: ubuntu-20.04 	# 在什么环境运行任务
     steps:
-      - uses: actions/checkout@v3   # 引用 actions/checkout 这个 action，与所在的 github 仓库同名
+      - uses: actions/checkout@v4   # 引用 actions/checkout 这个 action，与所在的 github 仓库同名
         with:
          submodules: true  # Fetch Hugo themes (true OR recursive) 获取 submodule 主题
          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -25,7 +25,7 @@ jobs:
           pwd
           ls
           cp -R exampleSite/* .
-          hugo --themesDir ../ --baseURL https://shenweiyan.github.io/WebStack-Hugo/
+          hugo --themesDir ../ --baseURL https://webstack-hugo.weiyan.cc/
           
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3	  # 一个自动发布 github pages 的 action

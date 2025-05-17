@@ -1,5 +1,5 @@
 > [!NOTE]
-> **2024年11月12日：更多新功能，请参考：<https://github.com/NavPage> 项目！**
+> **2025年05月17日：更多新功能，请参考：<https://github.com/PagesX> 项目！**
 
 
 # 一个基于 Hugo 的静态响应式网址导航主题 

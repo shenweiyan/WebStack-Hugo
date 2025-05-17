@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy: 
-    runs-on: ubuntu-20.04 	# 在什么环境运行任务
+    runs-on: ubuntu-latest 	# 在什么环境运行任务
     steps:
       - uses: actions/checkout@v4   # 引用 actions/checkout 这个 action，与所在的 github 仓库同名
         with:

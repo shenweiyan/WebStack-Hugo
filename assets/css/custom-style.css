@@ -1,0 +1,130 @@
+/*调整全局字体大小*/
+body,html{font-size:14px;}
+
+/*左导航悬浮sidebar-menu-inner宽度调整为90px*/
+.sidebar-popup.sidebar-menu-inner > div > ul > li.sidebar-item>ul{position:absolute;top:0px;left:10px;width:90px;z-index:99}
+.sidebar-popup.sidebar-menu-inner ul{width:90px}
+.sidebar-popup.sidebar-menu-inner ul li{width:90px}
+
+/*隐藏左导航scrollbar*/
+.sidebar-menu.flex-fill::-webkit-scrollbar{display:none}
+
+/*搜索框搜索图标颜色*/
+#search button i{color:#6C757D;font-size:18px}
+
+/*顶部导航栏字体+图标颜色*/
+.big-header-banner .page-header{color:#ffffff;background:rgba(255,255,255,0);box-shadow:none;transition:color .3s,background-color .3s}
+.big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item){color:#ffffff;}
+.big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a:hover,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover{color:#dc3545;}
+.big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#ffffff;}
+.big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#ffffff;}
+
+/*搜索栏字体+背景*/
+.header-big #search-text{color:#6C757D;}
+.io-black-mode .header-big #search-text{color:#fff;}
+
+/*搜索activate图标颜色*/
+.header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:#ffffff transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}
+
+/*主页搜索搜索框(头+底部)字体颜色*/
+.header-big:not(.no-bg) .s-type-list{color:#20c997}
+.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
+
+/*主页header-banner底部宽度*/
+.post-top{padding-bottom:50px}
+
+/*左导航二级导航标题左侧距离*/
+.sidebar-menu-inner ul li ul li a{margin-left:30px;}
+
+/*头部导航二级导航iconfont图标*/
+.navbar-collapse ul li.menu-item-has-children:after{content:'\e612';}
+
+/*搜索部分背景样式*/
+.header-big.css-color{background-size:unset;background-position:unset;animation:unset;}
+
+/*搜索热词样式调整*/
+.search-hot-text{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 5px 0px #cccccc94;
+    overflow: hidden;
+}
+.search-hot-text ul{
+    margin: 0;
+    padding: 5px 0;
+}
+.search-hot-text ul li{
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px 25px;
+    color: #777;
+    cursor: pointer;
+}
+.io-black-mode .search-hot-text ul li{
+    color: #fff;
+}    
+.search-hot-text ul li.current{
+    background: #f1f1f1;
+    color: #2196f3;
+}
+.search-hot-text ul li:hover{
+    background: #f1f1f1;
+    color: #2196f3;
+    cursor: pointer;
+}
+.search-hot-text ul li span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    background: #e5e5e5;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #999;
+}
+
+footer.main-footer .footer-text {
+    text-align: center;
+}
+footer.main-footer .footer-text a {
+    color: #007bff;
+}
+footer.main-footer .footer-text a:hover {
+    color: red;
+}
+
+/*About页面*/
+.panel .panel-body a {color: #007bff;}
+.panel .panel-body a:hover {color: #979898;}
+
+/*网格背景*/
+.io-grey-mode .page-container .grid-bg {
+    background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0); 
+    background-size: 15px 15px;
+    background-color: #d8d8d8;
+}
+
+/*导航 Logo 图标裁剪边角*/
+.url-card .url-img > img {
+    border-radius: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -49,14 +49,3 @@ jobs:
         env:
           GITCODE_REPOSITORY: shenweiyan/WebStack-Hugo
           GITCODE_PAT: ${{ secrets.GITCODE_PAT }}
-          
-      - name: Push to Gitee 
-        uses: Yikun/hub-mirror-action@master
-        with:
-          src: github/shenweiyan
-          dst: gitee/shenweiyan
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITEE_TOKEN }}
-          static_list: "WebStack-Hugo"
-          force_update: true
-          timeout: '0.5h'
